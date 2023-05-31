@@ -1,0 +1,77 @@
+<div class="content">
+
+    <h2>Planeamento</h2>
+    
+    <div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-data" #dataPlaneamento/>
+        <span for="new-data">Data das entregas</span>
+      </div>
+
+      <div class="ct-find-service">
+        <div class="ct-select-group ct-js-select-group">
+          <select class="ct-select ct-js-select" id="cms-features" name="CMS Features" (change)="selectChangeHandler($event)">
+            <option>Selecione uma Opção</option>
+            <option value="0">Solução Ótima</option>
+            <option value="1">Menor Tempo</option>
+            <option value="2">Maior Massa</option>
+            <option value="3">Combinada</option>	
+            <option value="4">Algoritmo simulado</option>			
+          </select>
+        </div>
+      </div>
+
+      <button id="GetData" type="button" (click)="getPlaneamento(dataPlaneamento.value,selectedDay); dataPlaneamento.value='';">
+        Obter Planeamento
+      </button>
+
+      
+        <div *ngIf="selectedDay!='4';else other_content">
+          <ul class="planeamento">
+            <li *ngFor="let plan of planeamento">
+              Custo : {{plan.custo.toFixed(2)}} minutos <br> 
+              Caminho : {{plan.caminho}}<br>
+              <ul>
+                <li *ngFor="let cam of plan.caminho">
+                  <div *ngIf="cam!='005';else other_content">
+                  <br>
+                  <a><span class="material-symbols-outlined"> warehouse</span>{{cam}}</a> <br>
+                  <a><span class="material-symbols-outlined"> takeout_dining</span>{{cam}} - {{plan.data}}</a>
+                  </div>
+                <ng-template #other_content>
+                  <br>
+                  <a><span class="material-symbols-outlined"> warehouse</span>{{cam}}</a> <br>
+                </ng-template>
+                </li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      
+    
+
+    <ng-template #other_content>
+      <ul class="planeamento">
+        <br>
+        <li *ngFor="let plan of plano">
+            {{getArmazens(plan)}}
+            Camiao : {{plan.camiao}}<br>
+            Caminho : {{plan.entregas}}<br>
+            <ul class="planeamento">
+            <li *ngFor="let arm of Armazens">
+              <br>
+            <a><span class="material-symbols-outlined"> warehouse</span>{{arm}}</a> <br>
+            <a><span class="material-symbols-outlined"> takeout_dining</span>{{arm}} - {{data}}</a>
+            <br>
+            </li>
+          </ul>
+            <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+        </li>
+      </ul>
+    </ng-template>
+  
+  
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+  </div>
+  </div>

@@ -1,0 +1,49 @@
+<div class="content"> 
+
+<h2>Create Account</h2>
+
+
+  <div class="inputbox">
+    <input type="text" required="required" id="new-email" #email />
+    <span for="new-email">Email</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-name" #name />
+    <span for="new-name">Name</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-phoneNumber" #phoneNumber />
+    <span for="new-phoneNumber">Phone number</span>
+  </div>
+
+  <div class="ct-find-service">
+    <div class="ct-select-group ct-js-select-group">
+      <select class="ct-select ct-js-select" id="cms-features" name="CMS Features" (change)="selectChangeHandler($event)">
+        <option>Selecione uma Opção</option>
+        <option value="Admin">Administrador de sistema</option>
+        <option value="GA">Gestor de Armazém</option>
+        <option value="GF">Gestor de frota</option>
+        <option value="GL">Gestor de Logística</option>			
+      </select>
+    </div>
+  </div>
+
+  <button id="AddUser" type="button" (click)="addUser(email.value,name.value,phoneNumber.value,selectedDay);email.value='';phoneNumber.value='';name.value='';">
+    Add User
+  </button>
+
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+<ul class="create-acc">
+  <li *ngFor="let user of users">
+    <a>
+      {{user.email}}
+   </a>
+    <button id="DeleteUser" type="button" class="delete" title="delete camiao"
+      (click)="anonimizarUser(user)">x</button>
+  </li>
+</ul>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+</div>

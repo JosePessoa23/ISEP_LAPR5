@@ -1,0 +1,409 @@
+{
+	"info": {
+		"_postman_id": "01b6e61d-7e60-47fd-9943-cf91c9fc1354",
+		"name": "Armazens",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23450986"
+	},
+	"item": [
+		{
+			"name": "garantir_que_nao_existe",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_criacao",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([201]);\r",
+							"});\r",
+							"var jsonData = pm.response.json();\r",
+							"pm.collectionVariables.set(\"id\",jsonData.id);\r",
+							"pm.test(\"Post Armazem\", function () {\r",
+							"    \r",
+							"    pm.expect(jsonData.idProprio).to.eql(\"A4D\");\r",
+							"    pm.expect(jsonData.morada).to.eql(\"Rua das Ribeiras, 93\");\r",
+							"    pm.expect(jsonData.codigoPostal).to.eql(\"4455-547\");\r",
+							"    pm.expect(jsonData.localidade).to.eql(\"Matosinhos\");\r",
+							"    pm.expect(jsonData.pais).to.eql(\"Portugal\");\r",
+							"    pm.expect(jsonData.designacao).to.eql(\"Armazem de Freixieiro\");\r",
+							"    pm.expect(jsonData.latitude).to.eql(41.22);\r",
+							"    pm.expect(jsonData.longitude).to.eql(-8.69);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdProprio\": \"A4D\",\r\n    \"Morada\": \"Rua das Ribeiras, 93\",\r\n    \"CodigoPostal\": \"4455-547\",\r\n    \"Localidade\": \"Matosinhos\",\r\n    \"Pais\": \"Portugal\",\r\n    \"Designacao\": \"Armazem de Freixieiro\",\r\n    \"Latitude\": 41.22,\r\n    \"Longitude\": -8.69\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/armazens",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_a_leitura_e_que_existe",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Get Armazem\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.idProprio).to.eql(\"A4D\");\r",
+							"    pm.expect(jsonData.morada).to.eql(\"Rua das Ribeiras, 93\");\r",
+							"    pm.expect(jsonData.codigoPostal).to.eql(\"4455-547\");\r",
+							"    pm.expect(jsonData.localidade).to.eql(\"Matosinhos\");\r",
+							"    pm.expect(jsonData.pais).to.eql(\"Portugal\");\r",
+							"    pm.expect(jsonData.designacao).to.eql(\"Armazem de Freixieiro\");\r",
+							"    pm.expect(jsonData.latitude).to.eql(41.22);\r",
+							"    pm.expect(jsonData.longitude).to.eql(-8.69);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_alteracoes_(put)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful PUT request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"});\r",
+							"pm.test(\"Put Armazem\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.idProprio).to.eql(\"A4D\");\r",
+							"    pm.expect(jsonData.morada).to.eql(\"Rua das Ribeiras, 93\");\r",
+							"    pm.expect(jsonData.codigoPostal).to.eql(\"4455-547\");\r",
+							"    pm.expect(jsonData.localidade).to.eql(\"Matosinhos\");\r",
+							"    pm.expect(jsonData.pais).to.eql(\"Portugal\");\r",
+							"    pm.expect(jsonData.designacao).to.eql(\"Armazem de Freixieiro\");\r",
+							"    pm.expect(jsonData.latitude).to.eql(41.46);\r",
+							"    pm.expect(jsonData.longitude).to.eql(-8.39);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdProprio\": \"A4D\",\r\n    \"Morada\": \"Rua das Ribeiras, 93\",\r\n    \"CodigoPostal\": \"4455-547\",\r\n    \"Localidade\": \"Matosinhos\",\r\n    \"Pais\": \"Portugal\",\r\n    \"Designacao\": \"Armazem de Freixieiro\",\r\n    \"Latitude\": 41.46,\r\n    \"Longitude\": -8.39\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_ultima_alteracao",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Get Armazem\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.idProprio).to.eql(\"A4D\");\r",
+							"    pm.expect(jsonData.morada).to.eql(\"Rua das Ribeiras, 93\");\r",
+							"    pm.expect(jsonData.codigoPostal).to.eql(\"4455-547\");\r",
+							"    pm.expect(jsonData.localidade).to.eql(\"Matosinhos\");\r",
+							"    pm.expect(jsonData.pais).to.eql(\"Portugal\");\r",
+							"    pm.expect(jsonData.designacao).to.eql(\"Armazem de Freixieiro\");\r",
+							"    pm.expect(jsonData.latitude).to.eql(41.46);\r",
+							"    pm.expect(jsonData.longitude).to.eql(-8.39);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "garantir_que_obtem",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Get All Armazens\", function () {\r",
+							"    pm.expect(pm.response.json()).to.be.an('array').but.not.an('object');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_remocao_soft",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful Delete request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testar_remocao_hard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful Delete request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}/hard",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}",
+						"hard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "garantir_remocao",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/armazens/{{id}}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"armazens",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "11111111111111111111111111111111",
+			"type": "string"
+		}
+	]
+}

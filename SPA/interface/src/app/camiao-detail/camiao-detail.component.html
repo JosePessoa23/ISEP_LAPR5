@@ -1,0 +1,44 @@
+<div class="content">
+
+<div *ngIf="camiao">
+  <h2>{{camiao.matricula| uppercase}} Details</h2>
+  <div><span>Matrícula: </span>{{camiao.matricula}}</div>
+  <div>
+    <div class="inputbox">
+      <input type="text" required="required" id="new-tara" [(ngModel)]="camiao.tara" placeholder="Tara" />
+      <span for="new-tara">Tara</span>
+    </div>
+    <div class="inputbox">
+      <input type="text" required="required" id="new-capacidade" [(ngModel)]="camiao.capacidade" placeholder="Capacidade"/>
+      <span for="new-capacidade">Capacidade</span>
+    </div> 
+    <div class="inputbox">
+      <input type="text" required="required" id="new-cargaBateria" [(ngModel)]="camiao.cargaBateria" placeholder="Carga da Bateria"/>
+      <span for="new-cargaBateria">Carga da Bateria</span>
+    </div>
+    <div class="inputbox">
+      <input type="text" required="required" id="new-autonomia" [(ngModel)]="camiao.autonomia" placeholder="Autonomia"/>
+      <span for="new-autonomia">Autonomia</span>
+    </div>
+    <div class="inputbox">
+      <input type="text" required="required" id="new-tempoCarregamentoRapido" [(ngModel)]="camiao.tempoCarregamentoRapido" placeholder="Tempo de Carregamento Rapido"/>
+      <span for="new-tempoCarregamentoRapido">Tempo de Carregamento Rapido</span>
+    </div>
+
+    <h4>Disponibilidade:</h4>
+
+                <button id="camiaoTrue" [ngClass]="[bntStyle1]" (click)="changeButton(1) ;camiao.disponibilidade=true">
+                Ativo
+                </button>
+
+                <button id="camiaoFalse" [ngClass]="[bntStyle2]" (click)="changeButton(2);camiao.disponibilidade=false">
+                Inativo
+                </button>
+
+  </div>
+  <button id="BackCamiao" type="button" (click)="goBack()">Go back</button>
+  <button id="SaveCamiao" type="button" (click)="save()">Save</button>
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+</div>
+
+</div>

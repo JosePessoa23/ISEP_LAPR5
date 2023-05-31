@@ -1,0 +1,155 @@
+/* create-accComponent's private CSS styles */
+.create-acc {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.create-acc li {
+  position: relative;
+  cursor: pointer;
+}
+
+.create-acc a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 110%;
+  cursor: default;
+}
+
+.create-acc a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.create-acc a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.create-acc .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.add-button {
+ padding: .5rem 1.5rem;
+ font-size: 1rem;
+ margin-bottom: 2rem;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #42545C;
+}
+
+button.delete {
+  position: absolute;
+  left: 270px;
+  top: 5px;
+  background-color: white;
+  color:  #525252;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 1px 10px 3px 10px;
+}
+
+button.delete:hover {
+  background-color: #525252;
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 20px;
+  vertical-align: bottom;
+} 
+
+
+
+  @media (min-width: 1200px) {
+    .ct-find-service {
+      padding: 10px 0px;
+    }
+  }
+  .ct-select-group {
+    height: 64px;
+    position: relative;
+  }
+  .ct-select-group .ct-select {
+      width: 21%;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      font-size: 20px;
+      background: transparent;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      padding: 5px 15px;
+  }
+  .ct-select-group .ct-select option {
+    font-size: 22px;
+    background: #fff;
+  }
+  .ct-select-group:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 64px;
+      width: calc(100% - 64px);
+      background: #fff;
+      z-index: 0;
+  }
+  .ct-select-group:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 162%;
+    height: 50px;
+    background-color: #ffffff;
+    background-image: url(https://raw.githubusercontent.com/solodev/styling-select-boxes/master/select1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  
+  .btn-default{
+    background-color: #888888;
+    color: white;
+  }
+  
+  .btn-change{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }

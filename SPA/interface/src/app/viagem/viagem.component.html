@@ -1,0 +1,63 @@
+<div class="content"> 
+
+    <h2>Planeamento para a Frota</h2>
+    
+    <div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-data" #data />
+        <span for="new-data">Data</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-ng" #ng />
+        <span for="new-ng">Número de gerações</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-dp" #dp />
+        <span for="new-dp">Dimensão da população</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-pc" #pc />
+        <span for="new-pc">Probabilidade de cruzamento</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-pm" #pm />
+        <span for="new-pm">Probabilidade de mutação</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-cp" #cp />
+        <span for="new-cp">Tempo mínimo aceitável</span>
+      </div>
+      
+    
+        <!-- (click) passes input value to add() and then clears the input -->
+        <button id="CreateViagem" type="button" (click)="addViagem(data.value,ng.value,dp.value,pc.value,pm.value,cp.value);data.value='';ng.value='';dp.value='';pc.value='';pm.value='';cp.value='';">
+            Criar Viagens
+        </button>
+    </div>
+    
+    <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+    
+    
+    
+    <ul class="viagens">
+      <li *ngFor="let viagem of viagens">
+        <a routerLink="/viagens/detail/{{viagem.camiao}}/{{viagem.data}}">
+           {{viagem.camiao}} - {{viagem.data}}
+        </a>
+        <button id="DeleteViagem" type="button" class="delete" title="delete viagem"
+          (click)="delete(viagem)">x</button>
+      </li>
+    </ul>
+      
+    <button type="button" (click)="getViagensPaginaPrevious();">
+      &laquo;
+    </button>
+    <button type="button" (click)="getViagensPaginaNext();">
+      &raquo;
+    </button>
+    {{pagina}}
+
+        <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+        
+      </div>
+    

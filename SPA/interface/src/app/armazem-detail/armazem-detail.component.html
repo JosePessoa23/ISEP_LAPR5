@@ -1,0 +1,59 @@
+<div class="content"> 
+    <div *ngIf="armazem">
+        <h2>{{armazem.idProprio | uppercase}} Details</h2>
+        <div><span>Id: </span>{{armazem.idProprio}}</div><br>
+        <div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-morada" [(ngModel)]="armazem.morada" placeholder="Morada" />
+                <span for="new-morada"> Morada: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-codigoPostal" [(ngModel)]="armazem.codigoPostal" placeholder="Código Postal" />
+                <span for="new-codigoPostal"> Código Postal: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-localidade" [(ngModel)]="armazem.localidade" placeholder="Localidade" />
+                <span for="new-localidade"> Localidade: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-pais" [(ngModel)]="armazem.pais" placeholder="País" />
+                <span for="new-pais"> País: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-designacao" [(ngModel)]="armazem.designacao" placeholder="Designação" />
+                <span for="new-designacao"> Designação: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-latitude" [(ngModel)]="armazem.latitude" placeholder="Latitude" />
+                <span for="new-latitude"> Latitude: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-longitude" [(ngModel)]="armazem.longitude" placeholder="Longitude" />
+                <span for="new-longitude"> Longitude: </span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="new-altitude" [(ngModel)]="armazem.altitude" placeholder="Altitude" />
+                <span for="new-longitude"> Altitude: </span>
+            </div>
+
+            <h4>Disponibilidade:</h4>
+
+                <button id="armazemTrue" [ngClass]="[bntStyle1]" (click)="changeButton(1) ;armazem.disponibilidade=true">
+                Ativo
+                </button>
+
+                <button id="armazemFalse" [ngClass]="[bntStyle2]" (click)="changeButton(2);armazem.disponibilidade=false">
+                Inativo
+                </button>
+
+        </div>
+        
+        
+
+        <button id="SaveArmazem" type="button" (click)="goBack()">go back</button>
+        <button id="BackArmazem" type="button" (click)="save()">save</button>
+        
+        <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+    </div>
+</div>
+  

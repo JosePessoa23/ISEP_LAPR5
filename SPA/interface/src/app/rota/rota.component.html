@@ -1,0 +1,83 @@
+<div class="content">
+  <h2>Rotas</h2>
+
+  <div>
+    <div class="inputbox">
+      <input type="text" required="required" id="new-idArmazemPartida" #idArmazemPartida />
+      <span for="new-idArmazemPartida">Identificação do Armazém de Partida</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="new-idArmazemChegada" #idArmazemChegada />
+      <span for="new-idArmazemChegada">Identificação do Armazém de Chegada</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="new-distancia" #distancia />
+      <span for="new-distancia">Distância</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="new-tempoViagemCheio" #tempoViagemCheio />
+      <span for="new-tempoViagemCheio">Tempo da viagem quando o camião está cheio</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="new-energiaGasta" #energiaGasta />
+      <span for="new-energiaGasta">Energia Gasta na viagem</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="new-tempoCarregamentoExtra" #tempoCarregamentoExtra />
+      <span for="new-tempoCarregamentoExtra">Tempo de carregamento extra</span>
+    </div>
+  
+   <!-- (click) passes input value to add() and then clears the input -->
+   <button id="AddRota" type="button" (click)="add(idArmazemPartida.value, idArmazemChegada.value, distancia.value, tempoViagemCheio.value, energiaGasta.value, tempoCarregamentoExtra.value); idArmazemPartida.value=''; idArmazemChegada.value=''; distancia.value=''; tempoViagemCheio.value=''; energiaGasta.value=''; tempoCarregamentoExtra.value='';">
+    Add Rota
+  </button>
+  </div>
+  
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+  <h2>Get Rota</h2>
+  
+  <div>
+    <div class="inputbox">
+      <input type="text" required="required" id="idArmazemPartidaGet" #getByIdArmazemPartida />
+      <span for="idArmazemPartidaGet">Identificação do Armazém de Partida</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="text" required="required" id="idArmazemChegadaGet" #getByIdArmazemChegada />
+      <span for="idArmazemChegadaGet">Identificação do Armazém de Chegada</span>
+    </div>
+  
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button id="GetRota" type="button" (click)="getRota(getByIdArmazemPartida.value,getByIdArmazemChegada.value);">
+      Get Rota
+    </button>
+  </div>
+  
+  <ul class="rotas">
+    <li *ngFor="let rota of rotas">
+      <a routerLink="/rotas/detail/{{rota.idArmazemPartida}}/{{rota.idArmazemChegada}}">
+        {{rota.idArmazemPartida}} - {{rota.idArmazemChegada}}
+      </a>
+      <button id="DeleteRota" type="button" class="delete" title="delete rota"
+        (click)="delete(rota)">x</button>
+    </li>
+  </ul> 
+
+
+
+  <button type="button" (click)="getRotasPaginaPrevious(getByIdArmazemPartida.value,getByIdArmazemChegada.value);">
+    &laquo;
+  </button>
+  <button type="button" (click)="getRotasPaginaNext(getByIdArmazemPartida.value,getByIdArmazemChegada.value);">
+    &raquo;
+  </button>
+  {{pagina}}
+
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+</div>

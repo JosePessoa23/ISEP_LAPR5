@@ -1,0 +1,32 @@
+<div class="content">
+
+    <div *ngIf="viagem">
+      <ul class="viagens-detail">
+      <h2>{{viagem.camiao| uppercase}} - {{viagem.data}} Details</h2>
+      <div><span>Camiao: </span>{{viagem.camiao}}</div>
+      <div><span>Data: </span>{{viagem.data}}</div>
+      <div><span>Rota: </span></div>
+      
+      <li *ngFor="let cam of idArmazem">
+        <br>
+        <div *ngIf="cam!='005';else other_content">
+        <a><span class="material-symbols-outlined"> warehouse</span>{{cam}}</a> <br>
+        <a><span class="material-symbols-outlined"> takeout_dining</span>{{cam}} - {{viagem.data}}</a>
+      </div>
+        <ng-template #other_content>
+        <a><span class="material-symbols-outlined"> warehouse</span>{{cam}}</a> <br>
+        </ng-template>
+        <br>
+      </li>
+    
+      <br>
+      <div><span>Custo: </span>{{viagem.custo.toFixed(2)}}</div>
+    </ul>
+      
+      
+      
+      <button id="BackViagem" type="button" (click)="goBack()">Go back</button>
+      <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+    </div>
+    
+    </div>

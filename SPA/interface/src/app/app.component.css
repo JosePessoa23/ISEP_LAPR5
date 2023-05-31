@@ -1,0 +1,21 @@
+/* AppComponent's private CSS styles */
+h1 {
+  margin-bottom: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 24px;
+  vertical-align: bottom;
+} 
+
+.logo {
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  filter: invert(100%);
+  width: 70%;
+}

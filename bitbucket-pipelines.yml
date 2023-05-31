@@ -1,0 +1,47 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+clone:
+ depth: full
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test Módulo Logística
+            image: node:16
+            caches:
+              - node
+            script:
+              - cd Logistica
+              - npm install
+              - npm run build
+              - npm test
+              - cd ..
+              - git push git@github.com:brunoribeiro4488/logistica-lapr5-g022.git master
+        - step:
+            name: Build and Test Módulo Gestão de Armazéns
+            image: mcr.microsoft.com/dotnet/sdk:6.0
+            caches:
+              - dotnetcore
+            script:
+              - cd "Gestão de Armazéns"
+              - cd dddnetcore
+              - dotnet build
+              - dotnet test Testes/Testes.csproj
+        - step:
+            name: Build and Test Módulo SPA
+            image: node:16
+            caches:
+              - node
+            script:
+              - cd SPA/interface
+              - npm install
+              - npm install -g @angular/cli
+              - npm install lil-gui
+              - ng build
+             
+              
+              

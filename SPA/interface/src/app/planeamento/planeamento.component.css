@@ -1,0 +1,78 @@
+.planeamento {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    cursor: default;
+  }
+  
+  .planeamento ul {
+    list-style-type: none;
+    cursor: default;
+  }
+
+  .planeamento li {
+    position: relative;
+    cursor: default;
+  }
+  
+
+  @media (min-width: 1200px) {
+    .ct-find-service {
+      padding: 10px 0px;
+    }
+  }
+  .ct-select-group {
+    height: 64px;
+    position: relative;
+    cursor: default;
+  }
+  .ct-select-group .ct-select {
+      width: 21%;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      font-size: 20px;
+      background: transparent;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      cursor: default;
+      padding: 5px 15px;
+  }
+  .ct-select-group .ct-select option {
+    font-size: 22px;
+    background: #fff;
+    cursor: default;
+  }
+  .ct-select-group:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 64px;
+      width: calc(100% - 64px);
+      background: #fff;
+      z-index: 0;
+      cursor: default;
+  }
+  .ct-select-group:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 162%;
+    height: 50px;
+    background-color: #ffffff;
+    background-image: url(https://raw.githubusercontent.com/solodev/styling-select-boxes/master/select1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    cursor: default;
+  }
+
+  

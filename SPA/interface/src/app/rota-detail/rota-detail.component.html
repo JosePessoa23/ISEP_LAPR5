@@ -1,0 +1,35 @@
+<div class="content">
+
+  <div *ngIf="rota">
+    <h2>{{rota.idArmazemPartida| uppercase}} - {{rota.idArmazemChegada| uppercase}} Details</h2>
+    <div><span>Identificação do Armazém de Partida: </span>{{rota.idArmazemPartida}}</div><br>
+    <div><span>Identificação do Armazém de Chegada: </span>{{rota.idArmazemChegada}}</div><br>
+    <div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-distancia" [(ngModel)]="rota.distancia" placeholder="Distancia" />
+        <span for="new-distancia">Distancia: </span>
+      </div>
+
+      <div class="inputbox">      
+        <input type="text" required="required" id="new-tempoViagemCheio" [(ngModel)]="rota.tempoViagemCheio" placeholder="Tempo da viagem quando o camião está cheio" />
+        <span for="new-tempoViagemCheio">Tempo da viagem quando o camião está cheio: </span>
+      </div>
+
+      <div class="inputbox">
+        <input type="text" required="required" id="new-energiaGasta" [(ngModel)]="rota.energiaGasta" placeholder="Energia Gasta na viagem" />
+        <span for="new-energiaGasta">Energia Gasta na viagem: </span>
+      </div>
+
+      <div class="inputbox">
+        <input type="text" required="required" id="new-tempoCarregamentoExtra" [(ngModel)]="rota.tempoCarregamentoExtra" placeholder="Tempo de carregamento extra" />
+        <span for="new-tempoCarregamentoExtra">Tempo de carregamento extra: </span>
+      </div>
+
+    </div>
+    <button id="SaveRota" type="button" (click)="save()">Save</button>
+    <button type="button" (click)="goBack()">Return</button>
+
+    <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+  </div>
+  
+</div>

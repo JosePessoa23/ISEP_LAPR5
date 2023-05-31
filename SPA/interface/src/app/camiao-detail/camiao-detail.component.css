@@ -1,0 +1,9 @@
+.btn-default{
+    background-color: #888888;
+    color: white;
+  }
+  
+  .btn-change{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }

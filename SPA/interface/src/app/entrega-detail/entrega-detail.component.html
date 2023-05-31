@@ -1,0 +1,34 @@
+<div class="content">
+
+
+<div *ngIf="entrega">
+    <h2>{{entrega.idLoja| uppercase}} - {{entrega.data}} Details</h2>
+    <div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-idLoja" [(ngModel)]="entrega.idLoja" placeholder="Identificação do Armazém" />
+        <span for="new-idLoja">Identificação do Armazém</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-tempoCarga" [(ngModel)]="entrega.tempoCarga" placeholder="Tempo de Carregamento" />
+        <span for="new-tempoCarga">Tempo de Carregamento</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-tempoDescarga" [(ngModel)]="entrega.tempoDescarga" placeholder="Tempo de Descarga" />
+        <span for="new-tempoDescarga">Tempo de Descarga</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-data" [(ngModel)]="entrega.data" placeholder="Data da Entrega" />
+        <span for="new-data">Data da Entrega</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" id="new-peso" [(ngModel)]="entrega.peso" placeholder="Peso da Entrega" />
+        <span for="new-peso">Peso da Entrega</span>
+      </div>
+    </div>
+    <button id="SaveEntrega" type="button" (click)="save()">Save</button>
+    <button type="button" (click)="goBack()">Return</button>
+
+    <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+  </div>
+  
+</div>

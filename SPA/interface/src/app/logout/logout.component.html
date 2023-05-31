@@ -1,0 +1,24 @@
+<div class="content">
+
+<h2>Detalhes do utilizador:</h2>
+
+<div *ngIf="utilizador">
+<div><span>Nome: </span>{{utilizador.name}}</div><br>
+<div><span>Email: </span>{{utilizador.email}}</div><br>
+<div><span>Número de Telemovél: </span>{{utilizador.phoneNumber}}</div><br>
+<div><span>Função: </span>{{utilizador.role}}</div><br>
+</div>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+<button id="destroyToken" type="button" (click)="destroyToken();">
+    Logout
+</button>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+<button id="anonimizarUser" type="button" (click)="anonimizarUser();">
+    Delete Account
+</button>
+
+</div>

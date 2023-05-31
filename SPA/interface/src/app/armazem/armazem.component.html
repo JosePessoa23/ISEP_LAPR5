@@ -1,0 +1,78 @@
+<div class="content"> 
+
+<h2>Armazéns</h2>
+
+<div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-idProprio" #armazemIdProprio />
+    <span for="new-idProprio">ID</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-morada" #armazemMorada />
+    <span for="new-morada">Morada</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-codigoPostal" #armazemCodigoPostal />
+    <span for="new-codigoPostal">Código Postal</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-localidade" #armazemLocalidade />
+    <span for="new-localidade">Localidade</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-pais" #armazemPais />
+    <span for="new-pais">País</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-designacao" #armazemDesignacao />
+    <span for="new-designacao">Designação</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-latitude" #armazemLatitude />
+    <span for="new-latitude">Latitude</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-longitude" #armazemLongitude />
+    <span for="new-longitude">Longitude</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-altitude" #armazemAltitude />
+    <span for="new-altitude">Altitude</span>
+  </div>
+  
+
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button id="AddArmazem" type="button" (click)="add(armazemIdProprio.value, armazemMorada.value, armazemCodigoPostal.value, armazemLocalidade.value, armazemPais.value, armazemDesignacao.value, armazemLatitude.value, armazemLongitude.value, armazemAltitude.value); armazemIdProprio.value=''; armazemMorada.value=''; armazemCodigoPostal.value=''; armazemLocalidade.value=''; armazemPais.value=''; armazemDesignacao.value=''; armazemLatitude.value=''; armazemLongitude.value='';armazemAltitude.value='';">
+        Add Armazém
+    </button>
+</div>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+<h2>Get Armazém</h2>
+
+<div>
+  <div class="inputbox">
+    <input type="text" required="required" id="idProprio" #getArmazemByIdProprio />
+    <span for="idProprio">ID</span>
+  </div>  
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button id="GetArmazem" type="button" (click)="getArmazem(getArmazemByIdProprio.value); getArmazemByIdProprio.value=''">
+    Get Armazém
+  </button>
+</div>
+
+<ul class="armazens">
+  <li *ngFor="let armazem of armazens">
+    <a routerLink="/armazens/detail/{{armazem.idProprio}}">
+      {{armazem.idProprio}} - {{armazem.designacao}}
+    </a>
+    <button id="DeleteArmazem" type="button" class="delete" title="delete armazem"
+      (click)="delete(armazem)">x</button>
+  </li>
+</ul>
+
+  <hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+  
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "22s5_dd_22",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JosePessoa007@bitbucket.org/1201000/22s5_dd_22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/1201000/22s5_dd_22/issues"
+  },
+  "homepage": "https://bitbucket.org/1201000/22s5_dd_22#readme"
+}

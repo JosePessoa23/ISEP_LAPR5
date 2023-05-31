@@ -1,0 +1,74 @@
+<div class="content">
+
+<h2>Entregas</h2>
+
+<div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-idLoja" #idLoja />
+    <span for="new-idLoja">Identificação do Armazém</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-tempoCarga" #tempoCarga />
+    <span for="new-tempoCarga">Tempo de Carregamento</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-tempoDescarga" #tempoDescarga />
+    <span for="new-tempoDescarga">Tempo de Descarga</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-data" #data />
+    <span for="new-data">Data da Entrega</span>
+  </div>
+  <div class="inputbox">
+    <input type="text" required="required" id="new-peso" #peso />
+    <span for="new-peso">Peso</span>
+  </div>
+
+ <!-- (click) passes input value to add() and then clears the input -->
+ <button id="AddEntrega" type="button" (click)="add(idLoja.value, tempoCarga.value, tempoDescarga.value, data.value, peso.value); idLoja.value=''; tempoCarga.value=''; tempoDescarga.value=''; data.value=''; peso.value='';">
+  Add Entrega
+</button>
+</div>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+<h2>Filtrar Entregas</h2>
+
+<div>
+  <div class="inputbox">
+    <input type="text" required="required" id="data" #getEntregaByDataInput />
+    <span for="data">Data da entrega/Armazém de destino: </span>
+  </div>
+
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button id="pesquisarData" type="button" (click)="getEntregaByData(getEntregaByDataInput.value); getEntregaByDataInput.value=''">
+    Pesquisar pela Data
+  </button>
+
+  <button id="pesquisarArmazem" type="button" (click)="getEntregaByArmazem(getEntregaByDataInput.value); getEntregaByDataInput.value=''">
+    Pesquisar por Armazém
+  </button>
+
+  <button id="ordenaData" type="button" (click)="getEntregasOrderedByData();">
+    Ordenar pela data
+  </button>
+
+  <button id="ordenaArmazem" type="button" (click)="getEntregasOrderedByArmazem();">
+    Ordenar por armazém
+  </button>
+</div>
+
+<ul class="entregas">
+  <li *ngFor="let entrega of entregas">
+    <a routerLink="/entregas/detail/{{entrega.id}}">
+      {{entrega.idLoja}} - {{entrega.data}}
+    </a>
+    <button id="DeleteEntrega" type="button" class="delete" title="delete entrega"
+      (click)="delete(entrega)">x</button>
+  </li>
+</ul>
+
+<hr style="border:0; background-color: rgb(202, 202, 202); height: 1px; margin-bottom: 0;"><br>
+
+</div>

@@ -1,0 +1,73 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC09: Editar um Camião
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:SPA" as SPA
+participant "<b>:ML" as M
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+activate SPA
+activate M
+
+A -> SPA: Insere os dados e pede para atualizar um camião
+SPA -> M: HTTP request (put)
+M -> M: Responde ao request (Edita um Camião e atualiza \nna base de dados / Informa de falha no request)
+M -> SPA: Camião atualizado
+SPA -> A: Informa o utilizador do sucesso/insucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

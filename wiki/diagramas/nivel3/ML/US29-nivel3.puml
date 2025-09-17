@@ -1,0 +1,107 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemRoute" as RR
+participant "<b>:ViagemController" as RC
+participant "<b>:ViagemMapper" as RM
+participant "<b>:ViagemService" as RS
+participant "<b>viagemDTO\n<b>:ViagemDTO" as RD
+participant "<b>:ViagemRepository" as RREP
+participant "<b>:ViagemSchema" as RSC
+participant "<b>listViagensDTO\n<b>:List<ViagemDTO>" as LRD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (get)
+activate RR
+
+RR -> RC: get(req, res, next)
+activate RC
+
+RC -> RS : getViagensPagina(pagina)
+activate RS
+RS -> RREP : listViagens = getViagensPagina(pagina)
+activate RREP
+RREP -> RSC : find().limit(5).skip(5*(pagina-1))
+activate RSC
+deactivate RSC
+deactivate RREP
+
+loop [listRotas]
+RS -> RM : viagemDTO = createViagemDTO(viagem)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS-> LRD : add(viagemDTO)
+activate LRD
+deactivate LRD
+
+end
+
+RS -> RC : listViagensDTO
+deactivate RS
+RC -> RR: listViagensDTO
+deactivate RC
+
+RR -> A: Mostra as Viagens e informa o utilizador do sucesso da operaçao
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

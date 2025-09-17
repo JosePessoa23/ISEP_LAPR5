@@ -1,0 +1,109 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC08: Listar Camiões
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as CR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>listCamioes\n<b>:List<Camiao>" as LC
+participant "<b>listCamioesDTO\n<b>:List<CamiaoDTO>" as LCD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CR: HTTP request (get)
+activate CR
+
+CR -> CC: get(req, res, next)
+activate CC
+
+CC -> CS : getCamioes()
+activate CS
+CS -> CREP : listCamioes = getCamioes()
+activate CREP
+CREP -> CSC : find()
+activate CSC
+deactivate CSC
+deactivate CREP
+
+loop [listCamioes]
+CS -> CM : camiaoDTO = toDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS-> LCD : add(camiaoDTO)
+activate LCD
+deactivate LCD
+
+end
+
+CS -> CC : listCamioesDTO
+deactivate CS
+CC -> CR: listCamioesDTO
+deactivate CC
+
+CR -> A: Mostra os Camiões e informa o utilizador do sucesso da operaçao
+deactivate CR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

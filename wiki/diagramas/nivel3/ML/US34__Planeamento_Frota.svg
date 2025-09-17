@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="735px" preserveAspectRatio="none" style="width:1680px;height:735px;background:#FAFDFF;" version="1.1" viewBox="0 0 1680 735" width="1680px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="383" x="650" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="373" x="655" y="29.5332">US34: Obter o planeamento da frota com persistência</text><rect fill="#C2F0FF" height="512.9219" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="481.5703" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="257.5" y="153.5703"/><rect fill="#C2F0FF" height="420.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="506.5" y="183.9219"/><rect fill="#C2F0FF" height="360.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="801.5" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1075.5" y="391.3828"/><rect fill="#C2F0FF" height="91.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1212.5" y="244.625"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1212.5" y="451.7344"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1400" y="274.9766"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1577" y="482.0859"/><rect height="194.4063" style="stroke:#082642;stroke-width:1.5;fill:none;" width="959" x="715" y="350.6797"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="262" x2="262" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="511.5" x2="511.5" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="806" x2="806" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="967" x2="967" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1080" x2="1080" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1217" x2="1217" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1405" x2="1405" y1="121.2188" y2="653.1406"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1582" x2="1582" y1="121.2188" y2="653.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Logística</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="666.6738">Gestor de Logística</text><ellipse cx="76.5" cy="678.25" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,686.25 L76.5,713.25 M63.5,694.25 L89.5,694.25 M76.5,713.25 L63.5,728.25 M76.5,713.25 L89.5,728.25 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="151" x="187" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="194" y="110.1426">:PlaneamentoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="151" x="187" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="194" y="673.6738">:PlaneamentoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="180" x="421.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="428.5" y="110.1426">:PlaneamentoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="180" x="421.5" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="428.5" y="673.6738">:PlaneamentoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="725" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="732" y="110.1426">:PlaneamentoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="725" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="732" y="673.6738">:PlaneamentoService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="138" x="898" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="907" y="92.5332">planeamentoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="905" y="110.1426">:PlaneamentoDTO</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="138" x="898" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="907" y="673.6738">planeamentoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="905" y="691.2832">:PlaneamentoDTO</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1046" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1055" y="92.5332">viagem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1053" y="110.1426">:Viagem</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1046" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1055" y="673.6738">viagem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1053" y="691.2832">:Viagem</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="185" x="1125" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="1132" y="110.1426">:PlaneamentoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="185" x="1125" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="1132" y="673.6738">:PlaneamentoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="170" x="1320" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="1327" y="110.1426">:BackEndPlaneamento</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="170" x="1320" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="1327" y="673.6738">:BackEndPlaneamento</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="164" x="1500" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1507" y="110.1426">:PlaneamentoSchema</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="164" x="1500" y="652.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1507" y="673.6738">:PlaneamentoSchema</text><rect fill="#C2F0FF" height="512.9219" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="481.5703" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="257.5" y="153.5703"/><rect fill="#C2F0FF" height="420.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="506.5" y="183.9219"/><rect fill="#C2F0FF" height="360.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="801.5" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1075.5" y="391.3828"/><rect fill="#C2F0FF" height="91.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1212.5" y="244.625"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1212.5" y="451.7344"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1400" y="274.9766"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1577" y="482.0859"/><polygon fill="#1E90FF" points="245.5,149.5703,255.5,153.5703,245.5,157.5703,249.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="251.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="109.5" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="120.5" y="148.7139">HTTP request (get)</text><polygon fill="#1E90FF" points="494.5,179.9219,504.5,183.9219,494.5,187.9219,498.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="267.5" x2="500.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="277" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="288" y="179.0654">getPlaneamentoFrota(req, res, next)</text><polygon fill="#1E90FF" points="789.5,210.2734,799.5,214.2734,789.5,218.2734,793.5,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="516.5" x2="795.5" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="526" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="537" y="209.417">getPlaneamentoFrota(data, ng,dp,pc,pm,cp)</text><polygon fill="#1E90FF" points="1200.5,240.625,1210.5,244.625,1200.5,248.625,1204.5,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="811.5" x2="1206.5" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="869" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="880" y="239.7686">getPlaneamentoFrota(data,  ng, dp, pc, pm, cp)</text><polygon fill="#1E90FF" points="1388,270.9766,1398,274.9766,1388,278.9766,1392,274.9766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1222.5" x2="1394" y1="274.9766" y2="274.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1251.25" y="270.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="1262.25" y="270.1201">HTTP request (get)</text><polygon fill="#1E90FF" points="1233.5,301.3281,1223.5,305.3281,1233.5,309.3281,1229.5,305.3281" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1227.5" x2="1404" y1="305.3281" y2="305.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1286.75" y="300.4717">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1297.75" y="300.4717">viagens</text><polygon fill="#1E90FF" points="822.5,331.6797,812.5,335.6797,822.5,339.6797,818.5,335.6797" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="816.5" x2="1216.5" y1="335.6797" y2="335.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="987.5" y="330.8232">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="998.5" y="330.8232">viagens</text><path d="M715,350.6797 L788,350.6797 L788,359.0313 L778,369.0313 L715,369.0313 L715,350.6797 " fill="#C2F0FF" style="stroke:#082642;stroke-width:1.5;"/><rect fill="none" height="194.4063" style="stroke:#082642;stroke-width:1.5;" width="959" x="715" y="350.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="730" y="365.1748">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="170" x="803" y="364.0986">[para cada viagem em viagens]</text><polygon fill="#1E90FF" points="1063.5,387.3828,1073.5,391.3828,1063.5,395.3828,1067.5,391.3828" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="811.5" x2="1069.5" y1="391.3828" y2="391.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="883" y="386.5264">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="894" y="386.5264">create(viagemDTO)</text><polygon fill="#1E90FF" points="1200.5,447.7344,1210.5,451.7344,1200.5,455.7344,1204.5,451.7344" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="811.5" x2="1206.5" y1="451.7344" y2="451.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="969.5" y="446.8779">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="980.5" y="446.8779">save(viagem)</text><polygon fill="#1E90FF" points="1565,478.0859,1575,482.0859,1565,486.0859,1569,482.0859" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1222.5" x2="1571" y1="482.0859" y2="482.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1353.75" y="477.2295">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="1371.75" y="477.2295">save(viagem)</text><polygon fill="#1E90FF" points="527.5,570.4375,517.5,574.4375,527.5,578.4375,523.5,574.4375" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="521.5" x2="805.5" y1="574.4375" y2="574.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="618" y="569.5811">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="636" y="569.5811">viagensDTO</text><polygon fill="#1E90FF" points="278.5,600.7891,268.5,604.7891,278.5,608.7891,274.5,604.7891" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="272.5" x2="510.5" y1="604.7891" y2="604.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="346" y="599.9326">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="364" y="599.9326">viagensDTO</text><polygon fill="#1E90FF" points="92.5,631.1406,82.5,635.1406,92.5,639.1406,88.5,635.1406" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="261.5" y1="635.1406" y2="635.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="96" y="630.2842">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="114" y="630.2842">Retorna o planeamento</text><!--MD5=[163b78635527df3cb5d0b8fd07a99103]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US34: Obter o planeamento da frota com persistência
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>planeamentoDTO\n<b>:PlaneamentoDTO" as PD
+participant "<b>viagem\n<b>:Viagem" as V
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:BackEndPlaneamento" as BP
+participant "<b>:PlaneamentoSchema" as PSC
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlaneamentoFrota(req, res, next)
+activate PC
+
+PC -> PS : getPlaneamentoFrota(data, ng,dp,pc,pm,cp)
+activate PS
+PS -> PREP : getPlaneamentoFrota(data,  ng, dp, pc, pm, cp)
+activate PREP
+
+
+PREP -> BP : HTTP request (get)
+activate BP
+BP -> PREP : viagens
+deactivate BP
+PREP -> PS : viagens
+deactivate PREP
+loop para cada viagem em viagens
+PS -> V: create(viagemDTO)
+activate V
+deactivate V
+PS -> PREP : save(viagem)
+activate PREP
+PREP -> PSC : save(viagem)
+activate PSC
+|||
+deactivate PSC
+deactivate PREP
+end loop
+PS -> PC : viagensDTO
+deactivate PS
+PC -> PR: viagensDTO
+deactivate PC
+
+PR -> A: Retorna o planeamento
+deactivate PR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US34: Obter o planeamento da frota com persistência
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>planeamentoDTO\n<b>:PlaneamentoDTO" as PD
+participant "<b>viagem\n<b>:Viagem" as V
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:BackEndPlaneamento" as BP
+participant "<b>:PlaneamentoSchema" as PSC
+
+
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlaneamentoFrota(req, res, next)
+activate PC
+
+PC -> PS : getPlaneamentoFrota(data, ng,dp,pc,pm,cp)
+activate PS
+PS -> PREP : getPlaneamentoFrota(data,  ng, dp, pc, pm, cp)
+activate PREP
+
+
+PREP -> BP : HTTP request (get)
+activate BP
+BP -> PREP : viagens
+deactivate BP
+PREP -> PS : viagens
+deactivate PREP
+loop para cada viagem em viagens
+PS -> V: create(viagemDTO)
+activate V
+deactivate V
+PS -> PREP : save(viagem)
+activate PREP
+PREP -> PSC : save(viagem)
+activate PSC
+|||
+deactivate PSC
+deactivate PREP
+end loop
+PS -> PC : viagensDTO
+deactivate PS
+PC -> PR: viagensDTO
+deactivate PC
+
+PR -> A: Retorna o planeamento
+deactivate PR
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

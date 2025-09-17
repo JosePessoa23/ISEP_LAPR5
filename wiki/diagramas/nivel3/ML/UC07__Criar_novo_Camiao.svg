@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="737px" preserveAspectRatio="none" style="width:1779px;height:737px;background:#FAFDFF;" version="1.1" viewBox="0 0 1779 737" width="1779px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="183" x="797.25" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="802.25" y="29.5332">UC07: Criar novo Camiao</text><rect fill="#C2F0FF" height="515.3047" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="58.5" y="131.2188"/><rect fill="#C2F0FF" height="483.9531" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="481.5" y="153.5703"/><rect fill="#C2F0FF" height="423.25" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="642.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="880.5" y="214.2734"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="880.5" y="486.1172"/><rect fill="#C2F0FF" height="271.9766" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1160.5" y="304.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1430.5" y="516.4688"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1562" y="395.4141"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1706.5" y="425.7656"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="486" x2="486" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="647.5" x2="647.5" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="885" x2="885" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1165" x2="1165" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1341.5" x2="1341.5" y1="352.9531" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1435.5" x2="1435.5" y1="262.3828" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1566.5" x2="1566.5" y1="121.2188" y2="655.5234"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1711.5" x2="1711.5" y1="121.2188" y2="655.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="118.1426">Gestor de Frota</text><ellipse cx="63.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M63.5,60.1094 L63.5,87.1094 M50.5,68.1094 L76.5,68.1094 M63.5,87.1094 L50.5,102.1094 M63.5,87.1094 L76.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="669.0566">Gestor de Frota</text><ellipse cx="63.5" cy="680.6328" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M63.5,688.6328 L63.5,715.6328 M50.5,696.6328 L76.5,696.6328 M63.5,715.6328 L50.5,730.6328 M63.5,715.6328 L76.5,730.6328 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="111" x="431" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="438" y="110.1426">:CamiaoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="111" x="431" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="438" y="676.0566">:CamiaoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="140" x="577.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="584.5" y="110.1426">:CamiaoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="140" x="577.5" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="584.5" y="676.0566">:CamiaoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="824" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="831" y="110.1426">:CamiaoMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="824" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="831" y="676.0566">:CamiaoMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="1104" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1111" y="110.1426">:CamiaoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="1104" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1111" y="676.0566">:CamiaoService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1307.5" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="1317.5" y="676.0566">camiao</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1314.5" y="693.666">:Camiao</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="98" x="1386.5" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1396.5" y="676.0566">camiaoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1393.5" y="693.666">:CamiaoDTO</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1494.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1501.5" y="110.1426">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1494.5" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1501.5" y="676.0566">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="124" x="1649.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1656.5" y="110.1426">:CamiaoSchema</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="124" x="1649.5" y="654.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1656.5" y="676.0566">:CamiaoSchema</text><rect fill="#C2F0FF" height="515.3047" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="58.5" y="131.2188"/><rect fill="#C2F0FF" height="483.9531" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="481.5" y="153.5703"/><rect fill="#C2F0FF" height="423.25" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="642.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="880.5" y="214.2734"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="880.5" y="486.1172"/><rect fill="#C2F0FF" height="271.9766" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1160.5" y="304.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1430.5" y="516.4688"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1562" y="395.4141"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1706.5" y="425.7656"/><polygon fill="#1E90FF" points="469.5,149.5703,479.5,153.5703,469.5,157.5703,473.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="68.5" x2="475.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="211.5" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="222.5" y="148.7139">HTTP request (post)</text><polygon fill="#1E90FF" points="630.5,179.9219,640.5,183.9219,630.5,187.9219,634.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="491.5" x2="636.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="501" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="512" y="179.0654">create(req, res, next)</text><polygon fill="#1E90FF" points="868.5,210.2734,878.5,214.2734,868.5,218.2734,872.5,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="652.5" x2="874.5" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="662" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="673" y="209.417">camiaoDTO = createCamiaoDTO()</text><polygon fill="#1E90FF" points="1374.5,240.625,1384.5,244.625,1374.5,248.625,1378.5,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="885.5" x2="1380.5" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1108.5" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1119.5" y="239.7686">create()</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="98" x="1386.5" y="222.2734"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1396.5" y="243.8066">camiaoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1393.5" y="261.416">:CamiaoDTO</text><polygon fill="#1E90FF" points="1148.5,300.8438,1158.5,304.8438,1148.5,308.8438,1152.5,304.8438" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="652.5" x2="1154.5" y1="304.8438" y2="304.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="823" y="299.9873">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="834" y="299.9873">createCamiao(camiaoDTO)</text><polygon fill="#1E90FF" points="1295.5,331.1953,1305.5,335.1953,1295.5,339.1953,1299.5,335.1953" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1170.5" x2="1301.5" y1="335.1953" y2="335.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1182.5" y="330.3389">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="1193.5" y="330.3389">camiao = create()</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1307.5" y="312.8438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="1317.5" y="334.377">camiao</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1314.5" y="351.9863">:Camiao</text><polygon fill="#1E90FF" points="1550,391.4141,1560,395.4141,1550,399.4141,1554,395.4141" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1170.5" x2="1556" y1="395.4141" y2="395.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1322.75" y="390.5576">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="1333.75" y="390.5576">save(camiao)</text><polygon fill="#1E90FF" points="1694.5,421.7656,1704.5,425.7656,1694.5,429.7656,1698.5,425.7656" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1572" x2="1700.5" y1="425.7656" y2="425.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1595.75" y="420.9092">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="1606.75" y="420.9092">save(camiao)</text><polygon fill="#1E90FF" points="901.5,482.1172,891.5,486.1172,901.5,490.1172,897.5,486.1172" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="895.5" x2="1159.5" y1="486.1172" y2="486.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="900" y="481.2607">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="911" y="481.2607">camiaoDTO = createCamiaoDTO(camiao)</text><polygon fill="#1E90FF" points="1418.5,512.4688,1428.5,516.4688,1418.5,520.4688,1422.5,516.4688" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="890.5" x2="1424.5" y1="516.4688" y2="516.4688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1129.5" y="511.6123">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1147.5" y="511.6123">create()</text><polygon fill="#1E90FF" points="663.5,572.8203,653.5,576.8203,663.5,580.8203,659.5,576.8203" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="657.5" x2="1164.5" y1="576.8203" y2="576.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="866" y="571.9639">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="884" y="571.9639">camiaoDTO</text><polygon fill="#1E90FF" points="502.5,603.1719,492.5,607.1719,502.5,611.1719,498.5,607.1719" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="496.5" x2="646.5" y1="607.1719" y2="607.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="526.5" y="602.3154">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="544.5" y="602.3154">camiaoDTO</text><polygon fill="#1E90FF" points="79.5,633.5234,69.5,637.5234,79.5,641.5234,75.5,637.5234" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="73.5" x2="485.5" y1="637.5234" y2="637.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="83" y="632.667">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="101" y="632.667">Cria nova Camiao e informa o utilizador do sucesso da operaçao</text><!--MD5=[fca94871d4dda6bfc6198dbe6d6639dd]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title UC07: Criar novo Camiao
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as RR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> CC: create(req, res, next)
+activate CC
+
+CC -> CM: camiaoDTO = createCamiaoDTO()
+activate CM
+CM -> CD** : create()
+deactivate CM
+CC -> CS : createCamiao(camiaoDTO)
+activate CS
+CS -> C** : camiao = create()
+CS -> CREP : save(camiao)
+activate CREP
+CREP -> CSC : save(camiao)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> CM : camiaoDTO = createCamiaoDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : camiaoDTO
+deactivate CS
+CC -> RR: camiaoDTO
+deactivate CC
+
+RR -> A: Cria nova Camiao e informa o utilizador do sucesso da operaçao
+deactivate RR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title UC07: Criar novo Camiao
+
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as RR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+
+
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> CC: create(req, res, next)
+activate CC
+
+CC -> CM: camiaoDTO = createCamiaoDTO()
+activate CM
+CM -> CD** : create()
+deactivate CM
+CC -> CS : createCamiao(camiaoDTO)
+activate CS
+CS -> C** : camiao = create()
+CS -> CREP : save(camiao)
+activate CREP
+CREP -> CSC : save(camiao)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> CM : camiaoDTO = createCamiaoDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : camiaoDTO
+deactivate CS
+CC -> RR: camiaoDTO
+deactivate CC
+
+RR -> A: Cria nova Camiao e informa o utilizador do sucesso da operaçao
+deactivate RR
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

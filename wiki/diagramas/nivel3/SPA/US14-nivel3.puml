@@ -1,0 +1,94 @@
+@startuml Listar Armazens
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US14: Como gestor de armazéns, pretendo listar Armazéns
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:ArmazemUI" as CU
+participant "<b>:ArmazemComponent" as CC
+participant "<b>:ArmazemService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Abre a página relativa a Armazéns
+activate CU
+CU -> CC: getArmazens()
+activate CC
+CC -> CS : getArmazens()
+activate CS
+deactivate CC
+CS -> AL : get()
+
+ref over AL
+ ./MGA/UC02-nivel3.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaArmazens
+deactivate AL
+activate CS
+CS -> CC : listaArmazens
+deactivate CS
+activate CC
+CC -> CU : listaArmazens
+deactivate CC
+CU -> A: Mostra todos os armazens presentes no sistema ao utilizador
+
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="707px" preserveAspectRatio="none" style="width:1600px;height:707px;background:#FAFDFF;" version="1.1" viewBox="0 0 1600 707" width="1600px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="162" x="718" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="723" y="29.5332">UC03: Editar Armazém</text><rect fill="#C2F0FF" height="484.9531" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="462.6016" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="558.5" y="153.5703"/><rect fill="#C2F0FF" height="392.8984" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="712" y="183.9219"/><rect fill="#C2F0FF" height="91.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1083.5" y="334.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1508.5" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1508.5" y="456.25"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="625.1719"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="563.5" x2="563.5" y1="121.2188" y2="625.1719"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="716.5" x2="716.5" y1="121.2188" y2="625.1719"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1088" x2="1088" y1="292.3828" y2="625.1719"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1368" x2="1368" y1="534.3594" y2="625.1719"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1513" x2="1513" y1="121.2188" y2="625.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Armazém</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="638.7051">Gestor de Armazém</text><ellipse cx="76.5" cy="650.2813" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,658.2813 L76.5,685.2813 M63.5,666.2813 L89.5,666.2813 M76.5,685.2813 L63.5,700.2813 M76.5,685.2813 L89.5,700.2813 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="152" x="487.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="494.5" y="110.1426">:ArmazemController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="152" x="487.5" y="624.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="494.5" y="645.7051">:ArmazemController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="135" x="649.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="656.5" y="110.1426">:ArmazemService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="135" x="649.5" y="624.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="656.5" y="645.7051">:ArmazemService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="81" x="1048" y="624.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1057.5" y="645.7051">armazem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="1055" y="663.3145">:Armazem</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="110" x="1313" y="624.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1322.5" y="645.7051">armazemDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1320" y="663.3145">:ArmazemDTO</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="161" x="1433" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="1440" y="110.1426">:IArmazemRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="161" x="1433" y="624.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="1440" y="645.7051">:IArmazemRepository</text><rect fill="#C2F0FF" height="484.9531" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="462.6016" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="558.5" y="153.5703"/><rect fill="#C2F0FF" height="392.8984" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="712" y="183.9219"/><rect fill="#C2F0FF" height="91.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1083.5" y="334.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1508.5" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1508.5" y="456.25"/><polygon fill="#1E90FF" points="546.5,149.5703,556.5,153.5703,546.5,157.5703,550.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="552.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="260" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="271" y="148.7139">HTTP request (put)</text><polygon fill="#1E90FF" points="700,179.9219,710,183.9219,700,187.9219,704,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="568.5" x2="706" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="582.75" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="593.75" y="179.0654">UpdateAsync(dto)</text><polygon fill="#1E90FF" points="1496.5,210.2734,1506.5,214.2734,1496.5,218.2734,1500.5,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1502.5" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1047.75" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="1058.75" y="209.417">GetByIdAsync(dto.id)</text><polygon fill="#1E90FF" points="1036,270.625,1046,274.625,1036,278.625,1040,274.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1042" y1="274.625" y2="274.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="734" y="269.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="745" y="269.7686">Armazem(id, endereco, designacao, coordenadas)</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="81" x="1048" y="252.2734"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1057.5" y="273.8066">armazem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="1055" y="291.416">:Armazem</text><polygon fill="#1E90FF" points="1071.5,330.8438,1081.5,334.8438,1071.5,338.8438,1075.5,334.8438" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1077.5" y1="334.8438" y2="334.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="806.25" y="329.9873">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="817.25" y="329.9873">ChangeEndereco(dto.endereco)</text><polygon fill="#1E90FF" points="1071.5,361.1953,1081.5,365.1953,1071.5,369.1953,1075.5,365.1953" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1077.5" y1="365.1953" y2="365.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="793.25" y="360.3389">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="804.25" y="360.3389">ChangeDesignacao(dto.designacao)</text><polygon fill="#1E90FF" points="1071.5,391.5469,1081.5,395.5469,1071.5,399.5469,1075.5,395.5469" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1077.5" y1="395.5469" y2="395.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="785.25" y="390.6904">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="796.25" y="390.6904">ChangeCoordenadas(dto.coordenadas)</text><polygon fill="#1E90FF" points="1076.5,421.8984,1086.5,425.8984,1076.5,429.8984,1080.5,425.8984" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1082.5" y1="425.8984" y2="425.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="776.75" y="421.042">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="246" x="787.75" y="421.042">ChangeDisponibilidade(dto.disponibilidade)</text><polygon fill="#1E90FF" points="1496.5,452.25,1506.5,456.25,1496.5,460.25,1500.5,456.25" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1502.5" y1="456.25" y2="456.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1064.75" y="451.3936">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="1075.75" y="451.3936">CommitAsync()</text><polygon fill="#1E90FF" points="1301,512.6016,1311,516.6016,1301,520.6016,1305,516.6016" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="722" x2="1307" y1="516.6016" y2="516.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="734" y="511.7451">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="549" x="752" y="511.7451">ArmazemDTO(armazem.id, armazem.endereco, armazem.designacao, armazem.coordenadas)</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="110" x="1313" y="494.25"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1322.5" y="515.7832">armazemDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1320" y="533.3926">:ArmazemDTO</text><polygon fill="#1E90FF" points="579.5,572.8203,569.5,576.8203,579.5,580.8203,575.5,576.8203" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="573.5" x2="716" y1="576.8203" y2="576.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="593.75" y="571.9639">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="611.75" y="571.9639">armazemDTO</text><polygon fill="#1E90FF" points="92.5,603.1719,82.5,607.1719,92.5,611.1719,88.5,607.1719" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="557.5" y1="607.1719" y2="607.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="93.5" y="602.3154">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="435" x="111.5" y="602.3154">Edita os dados do Armazém e informa o utilizador do sucesso da operaçao</text><!--MD5=[821fc5e475e9d283642b500ac6db447b]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title UC03: Editar Armazém
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:ArmazemController" as AC
+participant "<b>:ArmazemService" as ASR
+participant "<b>armazem\n<b>:Armazem" as ARM
+participant "<b>armazemDTO\n<b>:ArmazemDTO" as AD
+participant "<b>:IArmazemRepository" as AR
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> AC: HTTP request (put)
+activate AC
+
+AC -> ASR: UpdateAsync(dto)
+activate ASR
+
+ASR -> AR: GetByIdAsync(dto.id)
+activate AR
+deactivate AR
+
+create ARM
+ASR -> ARM: Armazem(id, endereco, designacao, coordenadas)
+
+
+ASR -> ARM: ChangeEndereco(dto.endereco)
+activate ARM
+ASR -> ARM: ChangeDesignacao(dto.designacao)
+ASR -> ARM: ChangeCoordenadas(dto.coordenadas)
+ASR -> ARM: ChangeDisponibilidade(dto.disponibilidade)
+deactivate ARM
+
+ASR -> AR:  CommitAsync()
+activate AR
+deactivate AR
+
+create AD
+ASR -> AD: ArmazemDTO(armazem.id, armazem.endereco, armazem.designacao, armazem.coordenadas)
+
+ASR -> AC: armazemDTO
+deactivate ASR
+
+AC -> A: Edita os dados do Armazém e informa o utilizador do sucesso da operaçao
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title UC03: Editar Armazém
+
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:ArmazemController" as AC
+participant "<b>:ArmazemService" as ASR
+participant "<b>armazem\n<b>:Armazem" as ARM
+participant "<b>armazemDTO\n<b>:ArmazemDTO" as AD
+participant "<b>:IArmazemRepository" as AR
+
+
+
+activate A
+
+A -> AC: HTTP request (put)
+activate AC
+
+AC -> ASR: UpdateAsync(dto)
+activate ASR
+
+ASR -> AR: GetByIdAsync(dto.id)
+activate AR
+deactivate AR
+
+create ARM
+ASR -> ARM: Armazem(id, endereco, designacao, coordenadas)
+
+
+ASR -> ARM: ChangeEndereco(dto.endereco)
+activate ARM
+ASR -> ARM: ChangeDesignacao(dto.designacao)
+ASR -> ARM: ChangeCoordenadas(dto.coordenadas)
+ASR -> ARM: ChangeDisponibilidade(dto.disponibilidade)
+deactivate ARM
+
+ASR -> AR:  CommitAsync()
+activate AR
+deactivate AR
+
+create AD
+ASR -> AD: ArmazemDTO(armazem.id, armazem.endereco, armazem.designacao, armazem.coordenadas)
+
+ASR -> AC: armazemDTO
+deactivate ASR
+
+AC -> A: Edita os dados do Armazém e informa o utilizador do sucesso da operaçao
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

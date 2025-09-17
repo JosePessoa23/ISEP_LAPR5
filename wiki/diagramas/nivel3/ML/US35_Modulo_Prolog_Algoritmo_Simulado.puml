@@ -1,0 +1,97 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US35: Planeamento de frota: utilização de módulo de planeamento em Prolog e outro algoritmo simulado como estratégias distintas de planeamento (Logistica)
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:BackEndGestãoArmazéns" as BGA
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlano(req, res, next)
+activate PC
+
+PC -> PS : plano = planeamentoAlternativo(data)
+activate PS
+PS -> PREP : entregas = getEntregas(data)
+activate PREP
+PREP -> BGA : HTTP request (get)
+activate BGA
+deactivate BGA
+deactivate PREP
+PS -> CREP : camioes = findAllCamioes()
+activate CREP
+deactivate CREP
+PS -> PS : massaTotal = calculaMassaTotal(entregas)
+activate PS
+deactivate PS
+deactivate PS
+
+PC -> PR: plano
+deactivate PC
+
+PR -> A: Retorna o planeamento alternativo
+deactivate PR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

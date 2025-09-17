@@ -1,0 +1,94 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US31: Como gestor de armazéns pretendo filtrar Entregas
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:EntregaUI" as CU
+participant "<b>:EntregaComponent" as CC
+participant "<b>:EntregaService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Abre a página relativa a entregas e seleciona a opção \n Pesquisar pela data/por armazém
+activate CU
+CU -> CC: getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CC
+CC -> CS : getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CS
+deactivate CC
+CS -> AL : getEntregaByArmazem(armazem)/getEntregaByData(data)
+
+ref over AL
+ ./MGA/US31_Filtrar_Entregas.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaEntregas
+deactivate AL
+activate CS
+CS -> CC : listaEntregas
+deactivate CS
+activate CC
+CC -> CU : listaEntregas
+deactivate CC
+CU -> A: Mostra as entregas, de acordo com o filtro, presentes no sistema ao utilizador
+
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

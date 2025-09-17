@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="572px" preserveAspectRatio="none" style="width:1105px;height:572px;background:#FAFDFF;" version="1.1" viewBox="0 0 1105 572" width="1105px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="259" x="420.75" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="249" x="425.75" y="29.5332">US34: Obter o planeamento da frota</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="401.5" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="636.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="636.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="871.5" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="871.5" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1020.5" y="274.625"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="406" x2="406" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="641.5" x2="641.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="876" x2="876" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1025.5" x2="1025.5" y1="121.2188" y2="490.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Logística</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="504.0098">Gestor de Logística</text><ellipse cx="76.5" cy="515.5859" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,523.5859 L76.5,550.5859 M63.5,531.5859 L89.5,531.5859 M76.5,550.5859 L63.5,565.5859 M76.5,550.5859 L89.5,565.5859 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="83" x="365" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="372" y="110.1426">:ViagemUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="83" x="365" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="372" y="511.0098">:ViagemUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="150" x="566.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="573.5" y="110.1426">:ViagemComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="150" x="566.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="573.5" y="511.0098">:ViagemComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="815" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="822" y="110.1426">:ViagemService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="815" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="822" y="511.0098">:ViagemService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="142" x="954.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="961.5" y="110.1426">:BackEndLogistica</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="142" x="954.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="961.5" y="511.0098">:BackEndLogistica</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="401.5" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="636.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="636.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="871.5" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="871.5" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1020.5" y="274.625"/><polygon fill="#1E90FF" points="389.5,149.5703,399.5,153.5703,389.5,157.5703,393.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="395.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="91" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="102" y="148.7139">Insere os dados para obter o planeamento da frota</text><polygon fill="#1E90FF" points="624.5,179.9219,634.5,183.9219,624.5,187.9219,628.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="411.5" x2="630.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="421" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="432" y="179.0654">addViagens(data,ng,dp,pc,pm,cp)</text><polygon fill="#1E90FF" points="859.5,210.2734,869.5,214.2734,859.5,218.2734,863.5,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="646.5" x2="865.5" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="656" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="667" y="209.417">addViagens(data,ng,dp,pc,pm,cp)</text><polygon fill="#1E90FF" points="1008.5,270.625,1018.5,274.625,1008.5,278.625,1012.5,274.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="881.5" x2="1014.5" y1="274.625" y2="274.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="891" y="269.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="902" y="269.7686">HTTP request (get)</text><rect height="41.4453" style="stroke:#000000;stroke-width:1.5;fill:none;" width="148" x="951.5" y="312.625"/><path d="M951.5,312.625 L1013.5,312.625 L1013.5,320.625 L1003.5,330.625 L951.5,330.625 L951.5,312.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="964.5" y="328.1201">ref</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="964" y="347.082">./ML/US34-nivel3.puml</text><polygon fill="#1E90FF" points="892.5,377.4219,882.5,381.4219,892.5,385.4219,888.5,381.4219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="886.5" x2="1024.5" y1="381.4219" y2="381.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="926.5" y="376.5654">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="937.5" y="376.5654">viagens</text><polygon fill="#1E90FF" points="657.5,407.7734,647.5,411.7734,657.5,415.7734,653.5,411.7734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="651.5" x2="875.5" y1="411.7734" y2="411.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="734.5" y="406.917">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="745.5" y="406.917">viagens</text><polygon fill="#1E90FF" points="422.5,438.125,412.5,442.125,422.5,446.125,418.5,442.125" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="416.5" x2="640.5" y1="442.125" y2="442.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="499.5" y="437.2686">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="510.5" y="437.2686">viagens</text><polygon fill="#1E90FF" points="92.5,468.4766,82.5,472.4766,92.5,476.4766,88.5,472.4766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="405.5" y1="472.4766" y2="472.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="126" y="467.6201">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="137" y="467.6201">Mostra as viagens obtidas ao utilizador</text><!--MD5=[78b6da10fe4722fec1250c7b3ed41258]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US34: Obter o planeamento da frota
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemUI" as CU
+participant "<b>:ViagemComponent" as CC
+participant "<b>:ViagemService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> CU: Insere os dados para obter o planeamento da frota
+activate CU
+CU -> CC: addViagens(data,ng,dp,pc,pm,cp)
+activate CC
+CC -> CS : addViagens(data,ng,dp,pc,pm,cp)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/US34-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : viagens
+deactivate P
+activate CS
+CS -> CC : viagens
+deactivate CS
+activate CC
+CC -> CU : viagens
+deactivate CC
+CU -> A: Mostra as viagens obtidas ao utilizador
+
+deactivate CU
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US34: Obter o planeamento da frota
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemUI" as CU
+participant "<b>:ViagemComponent" as CC
+participant "<b>:ViagemService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+
+activate A
+
+A -> CU: Insere os dados para obter o planeamento da frota
+activate CU
+CU -> CC: addViagens(data,ng,dp,pc,pm,cp)
+activate CC
+CC -> CS : addViagens(data,ng,dp,pc,pm,cp)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/US34-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : viagens
+deactivate P
+activate CS
+CS -> CC : viagens
+deactivate CS
+activate CC
+CC -> CU : viagens
+deactivate CC
+CU -> A: Mostra as viagens obtidas ao utilizador
+
+deactivate CU
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,114 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC12: Editar uma Rota
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:RotaRoute" as RR
+participant "<b>:RotaController" as RC
+participant "<b>:RotaMapper" as RM
+participant "<b>:RotaService" as RS
+participant "<b>:RotaRepository" as RREP
+participant "<b>:RotaSchema" as RSC
+participant "<b>rota\n<b>:Rota" as R
+participant "<b>rotaDTO\n<b>:RotaDTO" as RD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (put)
+activate RR
+
+RR -> RC: update(req, res, next)
+activate RC
+
+
+RC -> RS : updateRota(rotaDTO)
+activate RS
+RS -> RREP : rota = findByID(rotaID)
+activate RREP
+RREP -> RSC : findOne(rotaID)
+activate RSC
+deactivate RSC
+deactivate RREP
+RS -> R : setArmazemP(armazemP)
+activate R
+RS -> R : setArmazemC(armazemC)
+RS -> R : setDistancia(distancia)
+RS -> R : setTempoViagem(tempoViagem)
+RS -> R : setEnergiaGasta(energiaGasta)
+RS -> R : setTempoExtra(tempoExtra)
+deactivate R
+RS -> RREP : save(rota)
+activate RREP
+RREP -> RSC : save(rota)
+activate RSC
+deactivate RSC
+deactivate RREP
+RS -> RM : rotaDTO = createRotaDTO(rota)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS -> RC : rotaDTO
+deactivate RS
+RC -> RR: rotaDTO
+deactivate RC
+
+RR -> A: Edita uma Rota e informa o utilizador do sucesso da operaçao
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

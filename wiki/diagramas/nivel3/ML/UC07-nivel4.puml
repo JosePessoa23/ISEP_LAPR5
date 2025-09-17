@@ -1,0 +1,112 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC07: Criar novo Camião
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as CR
+participant "<b>:ICamiaoController" as ICC
+participant "<b>:CamiaoController" as CC
+participant "<b>:ICamiaoService" as ICS
+participant "<b>:CamiaoService" as CS
+participant "<b>:CamiaoMapper" as CM
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:ICamiaoRepository" as ICREP
+participant "<b>:CamiaoRepository" as CREP
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CR: HTTP request (post)
+activate CR
+
+CR -> ICC: create(req, res, next)
+activate ICC
+
+ICC -> CC: create(req, res, next)
+activate CC
+
+
+CC -> ICS : createCamiao(camiaoDTO)
+activate ICS
+ICS -> CS : createCamiao(camiaoDTO)
+activate CS
+CS -> C** : camiao = create(camiaoDTO)
+CS -> ICREP : save(camiao)
+activate ICREP
+ICREP -> CREP : save(camiao)
+activate CREP
+deactivate ICREP
+deactivate CREP
+CS -> CM : camiaoDTO = toDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> ICS : camiaoDTO
+ICS -> CC : camiaoDTO
+deactivate ICS
+deactivate CS
+CC -> ICC: camiaoDTO
+ICC -> CR : camiaoDTO
+deactivate ICC
+deactivate CC
+
+CR -> A: Cria novo Camião e informa o utilizador do sucesso da operaçao
+deactivate CR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

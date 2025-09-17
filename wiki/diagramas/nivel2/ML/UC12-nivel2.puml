@@ -1,0 +1,73 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC12: Editar uma Rota
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:SPA" as SPA
+participant "<b>:ML" as M
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+activate M
+activate SPA
+
+A -> SPA: Insere os dados e pede para atualizar uma rota
+SPA -> M: HTTP request (put)
+M -> M: Responde ao request (Edita uma Rota e atualiza \nna base de dados / Informa de falha no request)
+M -> SPA: Rota Atualizada
+SPA -> A: Edita uma Rota e informa o utilizador do sucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

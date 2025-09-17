@@ -1,0 +1,96 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC02: Listar Armazéns
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:ArmazemController" as AC
+participant "<b>:ArmazemService" as ASR
+participant "<b>armazemDTO\n<b>:ArmazemDTO" as ARM
+participant "<b>list\n<b>:List<ArmazemDTO>" as AL
+participant "<b>:IArmazemRepository" as AR
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> AC: HTTP request (get)
+activate AC
+
+AC -> ASR: GetAllAsync()
+activate ASR
+
+ASR -> AR: GetAllAsync()
+activate AR
+
+AR -> ASR: list
+deactivate AR
+
+create AL
+ASR -> AL: Criar nova lista
+
+loop para cada Armazem arm em list
+
+create ARM
+ASR -> ARM: ArmazemDTO(arm.id, arm.endereco, arm.designacao, arm.coordenadas)
+ASR -> AL: Adicionar armazemDTO
+
+end loop
+
+ASR -> AC: list
+
+AC -> A: Lista os Armazéns na base de dados e informa o utilizador do sucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

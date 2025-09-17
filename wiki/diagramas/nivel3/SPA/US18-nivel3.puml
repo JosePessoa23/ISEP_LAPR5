@@ -1,0 +1,95 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US18: Como gestor de armazéns pretendo Editar Entrega
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazéns" as A
+participant "<b>:EntregaUI" as CU
+participant "<b>:EntregaDetailComponent" as CC
+participant "<b>:EntregaService" as CS
+participant "<b>entregaDTO\n<b>:EntregaDTO" as CD
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Escolhe a entrega que pretende editar
+activate CU
+CU --> A: Demonstra os campos possíveis de editar da entrega
+A -> CU: Altera os dados desejados e pressiona Salvar
+
+CU -> CC: save(entrega)
+activate CC
+CC -> CS : updateEntrega(entrega)
+activate CS
+
+CS -> AL : put(entrega)
+
+ref over AL
+ ./ML/UC06-nivel3.puml
+end ref
+
+activate AL
+AL --> CS
+deactivate AL
+CS --> CC
+deactivate CS
+CC --> CU
+deactivate CC
+CU -> A: Edita a Entrega e informa o utilizador do sucesso da operaçao
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

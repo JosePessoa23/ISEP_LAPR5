@@ -1,0 +1,107 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC11: Listar Rotas
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:RotaRoute" as RR
+participant "<b>:RotaController" as RC
+participant "<b>:RotaMapper" as RM
+participant "<b>:RotaService" as RS
+participant "<b>rotaDTO\n<b>:RotaDTO" as RD
+participant "<b>:RotaRepository" as RREP
+participant "<b>:RotaSchema" as RSC
+participant "<b>listRotasDTO\n<b>:List<RotaDTO>" as LRD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (get)
+activate RR
+
+RR -> RC: get(req, res, next)
+activate RC
+
+RC -> RS : getRotas()
+activate RS
+RS -> RREP : listRotas = getRotas()
+activate RREP
+RREP -> RSC : find().limit(5).skip(5*(pagina-1))
+activate RSC
+deactivate RSC
+deactivate RREP
+
+loop [listRotas]
+RS -> RM : rotaDTO = createRotaDTO(rota)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS-> LRD : add(rotaDTO)
+activate LRD
+deactivate LRD
+
+end
+
+RS -> RC : listRotasDTO
+deactivate RS
+RC -> RR: listRotasDTO
+deactivate RC
+
+RR -> A: Mostra as Rotas e informa o utilizador do sucesso da operaçao
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

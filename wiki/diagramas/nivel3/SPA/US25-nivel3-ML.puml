@@ -1,0 +1,94 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US25: Obter o planeamento da rota para 1 camião e 1 dado dia (Logistica)
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>planeamentoDTO\n<b>:PlaneamentoDTO" as PD
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:BackEndPlaneamento" as BP
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: get(req, res, next)
+activate PC
+
+PC -> PS : getPlaneamento(data)
+activate PS
+PS -> PREP : planeamentoDTO = getPlaneamento()
+activate PREP
+
+
+PREP -> BP : HTTP request (get)
+activate BP
+deactivate BP
+deactivate PREP
+
+PS -> PC : planeamentoDTO
+deactivate PS
+PC -> PR: planeamentoDTO
+deactivate PC
+
+PR -> A: Retorna o planeamento
+deactivate PR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

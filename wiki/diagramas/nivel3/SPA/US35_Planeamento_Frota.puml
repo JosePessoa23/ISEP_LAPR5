@@ -1,0 +1,95 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US35: Planeamento de frota: utilização de módulo de planeamento em Prolog e outro algoritmo simulado como estratégias distintas de planeamento (SPA)
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoUI" as CU
+participant "<b>:PlaneamentoComponent" as CC
+participant "<b>:PlaneamentoService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Insere a data do dia para que pretende obter o Planeamento Alternativo
+activate CU
+CU -> CC: getPlaneamento(data)
+activate CC
+CC -> CS : getPlano(data)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/US35-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : planeamento
+deactivate P
+activate CS
+CS -> CC : planeamento
+deactivate CS
+activate CC
+CC -> CU : planeamento
+deactivate CC
+CU -> A: Mostra o planeamento obtido ao utilizador
+
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

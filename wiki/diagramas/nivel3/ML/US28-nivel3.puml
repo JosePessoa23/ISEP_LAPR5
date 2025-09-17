@@ -1,0 +1,114 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US28: Como Utilizador pretendo autenticar-me na aplicação via SSO
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Utilizador" as A
+participant "<b>:UserRoute" as RR
+participant "<b>:UserController" as CC
+participant "<b>:UserMapper" as CM
+participant "<b>:UserService" as CS
+participant "<b>userDTO\n<b>:UserDTO" as CD
+participant "<b>:UserRepository" as CREP
+participant "<b>:UserSchema" as CSC
+
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> CC: create(req, res, next)
+activate CC
+CC -> CS : signIn(email)
+activate CS
+CS -> CREP : user = findByEmail(email)
+activate CREP
+CREP -> CSC : findOne(email)
+activate CSC
+deactivate CSC
+deactivate CREP
+alt successful case
+CS -> CM : userDTO = createUserDTO(user)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+
+deactivate CM
+CS -> CC : userDTO
+deactivate CS
+CC -> RR: userDTO
+deactivate CC
+
+RR -> A: Aceita o pedido de autenticação e informa o utilizador do sucesso da operaçao
+else failure case
+
+
+
+CS -> CC : status(402)
+activate CS
+deactivate CS
+activate CC
+CC -> RR: status(402)
+deactivate CC
+RR -> A: Recusa o pedido de autenticação e informa o utilizador do insucesso da operaçao
+deactivate RR
+end
+
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

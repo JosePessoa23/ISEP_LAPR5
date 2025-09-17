@@ -1,0 +1,96 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC05: Listar Entregas
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entregaDTO\n<b>:EntregaDTO" as ARM
+participant "<b>list\n<b>:List<EntregaDTO>" as AL
+participant "<b>:IEntregaRepository" as AR
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> AC: HTTP request (get)
+activate AC
+
+AC -> ASR: GetAllAsync()
+activate ASR
+
+ASR -> AR: GetAllAsync()
+activate AR
+
+AR -> ASR: list
+deactivate AR
+
+create AL
+ASR -> AL: Criar nova lista
+
+loop para cada Entrega ent em list
+
+create ARM
+ASR -> ARM: EntregaDTO(ent.id, ent.idLoja, ent.tempoCarga,\nent.tempoDescarga, ent.data, ent.peso)
+ASR -> AL: Adicionar entregaDTO
+
+end loop
+
+ASR -> AC: list
+
+AC -> A: Lista as Entregas na base de dados e informa o utilizador do sucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

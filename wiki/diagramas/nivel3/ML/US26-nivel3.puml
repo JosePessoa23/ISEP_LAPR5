@@ -1,0 +1,105 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US26: Como Administrador pretendo criar uma conta de utilizador indicando um número de telefone para contacto direto bem como o tipo de utilizador
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Administrador" as A
+participant "<b>:UserRoute" as RR
+participant "<b>:UserController" as CC
+participant "<b>:UserMapper" as CM
+participant "<b>:UserService" as CS
+participant "<b>user\n<b>:User" as C
+participant "<b>userDTO\n<b>:UserDTO" as CD
+participant "<b>:UserRepository" as CREP
+participant "<b>:UserSchema" as CSC
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> CC: create(req, res, next)
+activate CC
+
+CC -> CM: userDTO = createUserDTO(name,email,phoneNumber,role)
+activate CM
+CM -> CD** : create(name,email,phoneNumber,role)
+deactivate CM
+CC -> CS : createUser(userDTO)
+activate CS
+CS -> C** : user = create()
+CS -> CREP : save(user)
+activate CREP
+CREP -> CSC : save(user)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> CM : userDTO = createUserDTO(user)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : userDTO
+deactivate CS
+CC -> RR: userDTO
+deactivate CC
+
+RR -> A: Cria nova conta de utilizador e informa o do sucesso da operaçao
+
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

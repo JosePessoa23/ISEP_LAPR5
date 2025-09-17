@@ -1,0 +1,93 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US16: Como gestor de armazém pretendo criar uma entrega
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaUI" as CU
+participant "<b>:EntregaComponent" as CC
+participant "<b>:EntregaService" as CS
+participant "<b>entregaDTO\n<b>:EntregaDTO" as CD
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Inserir dados para criar uma entrega
+activate CU
+CU -> CC: addEntrega(idArmazem,tempoCarga,tempoDescarga,data,peso)
+activate CC
+CC -> CD** : create(idArmazem,tempoCarga,tempoDescarga,data,peso)
+CC -> CS : addEntrega(entregaDTO)
+activate CS
+CS -> AL : post(entregaDTO)
+
+ref over AL
+ ./MGA/UC04_nivel3.puml
+end ref
+activate AL
+AL --> CS
+deactivate AL
+CS --> CC
+deactivate CS
+CC --> CU
+deactivate CC
+deactivate CS
+CU -> A: Informa o utilizador do sucesso da operaçao
+deactivate AL
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

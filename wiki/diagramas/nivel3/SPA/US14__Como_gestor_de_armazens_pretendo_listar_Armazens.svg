@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="572px" preserveAspectRatio="none" style="width:1081px;height:572px;background:#FAFDFF;" version="1.1" viewBox="0 0 1081 572" width="1081px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="420" x="328.25" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="410" x="333.25" y="29.5332">US14: Como gestor de armazéns, pretendo listar Armazéns</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="74" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="477" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="615.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="615.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="774" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="774" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="959.5" y="274.625"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="79" x2="79" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="481.5" x2="481.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="620.5" x2="620.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="778.5" x2="778.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="964.5" x2="964.5" y1="121.2188" y2="490.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="5" y="118.1426">Gestor de Armazens</text><ellipse cx="79" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M79,60.1094 L79,87.1094 M66,68.1094 L92,68.1094 M79,87.1094 L66,102.1094 M79,87.1094 L92,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="5" y="504.0098">Gestor de Armazens</text><ellipse cx="79" cy="515.5859" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M79,523.5859 L79,550.5859 M66,531.5859 L92,531.5859 M79,550.5859 L66,565.5859 M79,550.5859 L92,565.5859 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="95" x="434.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="441.5" y="110.1426">:ArmazemUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="95" x="434.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="441.5" y="511.0098">:ArmazemUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="162" x="539.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="148" x="546.5" y="110.1426">:ArmazemComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="162" x="539.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="148" x="546.5" y="511.0098">:ArmazemComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="135" x="711.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="718.5" y="110.1426">:ArmazemService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="135" x="711.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="718.5" y="511.0098">:ArmazemService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="216" x="856.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="863.5" y="110.1426">:BackEndGestaoDeArmazens</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="216" x="856.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="863.5" y="511.0098">:BackEndGestaoDeArmazens</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="74" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="477" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="615.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="615.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="774" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="774" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="959.5" y="274.625"/><polygon fill="#1E90FF" points="465,149.5703,475,153.5703,465,157.5703,469,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="84" x2="471" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="176" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="187" y="148.7139">Abre a página relativa a Armazéns</text><polygon fill="#1E90FF" points="603.5,179.9219,613.5,183.9219,603.5,187.9219,607.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="487" x2="609.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="503.25" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="514.25" y="179.0654">getArmazens()</text><polygon fill="#1E90FF" points="762,210.2734,772,214.2734,762,218.2734,766,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="625.5" x2="768" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="651.75" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="662.75" y="209.417">getArmazens()</text><polygon fill="#1E90FF" points="947.5,270.625,957.5,274.625,947.5,278.625,951.5,274.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="784" x2="953.5" y1="274.625" y2="274.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="853.25" y="269.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="864.25" y="269.7686">get()</text><rect fill="none" height="41.4453" style="stroke:#000000;stroke-width:1.5;" width="222" x="853.5" y="312.625"/><path d="M853.5,312.625 L915.5,312.625 L915.5,320.625 L905.5,330.625 L853.5,330.625 L853.5,312.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="866.5" y="328.1201">ref</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="133" x="898" y="347.082">./MGA/UC02-nivel3.puml</text><polygon fill="#1E90FF" points="795,377.4219,785,381.4219,795,385.4219,791,381.4219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="789" x2="963.5" y1="381.4219" y2="381.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="827.25" y="376.5654">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="838.25" y="376.5654">listaArmazens</text><polygon fill="#1E90FF" points="636.5,407.7734,626.5,411.7734,636.5,415.7734,632.5,411.7734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="630.5" x2="778" y1="411.7734" y2="411.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="655.25" y="406.917">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="666.25" y="406.917">listaArmazens</text><polygon fill="#1E90FF" points="498,438.125,488,442.125,498,446.125,494,442.125" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="492" x2="619.5" y1="442.125" y2="442.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="506.75" y="437.2686">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="517.75" y="437.2686">listaArmazens</text><polygon fill="#1E90FF" points="95,468.4766,85,472.4766,95,476.4766,91,472.4766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="89" x2="481" y1="472.4766" y2="472.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="98.5" y="467.6201">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="358" x="109.5" y="467.6201">Mostra todos os armazens presentes no sistema ao utilizador</text><!--MD5=[3998ba00078f2ccb55dfd9151f71dc21]
+@startuml Listar Armazens
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US14: Como gestor de armazéns, pretendo listar Armazéns
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:ArmazemUI" as CU
+participant "<b>:ArmazemComponent" as CC
+participant "<b>:ArmazemService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> CU: Abre a página relativa a Armazéns
+activate CU
+CU -> CC: getArmazens()
+activate CC
+CC -> CS : getArmazens()
+activate CS
+deactivate CC
+CS -> AL : get()
+
+ref over AL
+ ./MGA/UC02-nivel3.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaArmazens
+deactivate AL
+activate CS
+CS -> CC : listaArmazens
+deactivate CS
+activate CC
+CC -> CU : listaArmazens
+deactivate CC
+CU -> A: Mostra todos os armazens presentes no sistema ao utilizador
+
+deactivate CU
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml Listar Armazens
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US14: Como gestor de armazéns, pretendo listar Armazéns
+
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:ArmazemUI" as CU
+participant "<b>:ArmazemComponent" as CC
+participant "<b>:ArmazemService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+
+activate A
+
+A -> CU: Abre a página relativa a Armazéns
+activate CU
+CU -> CC: getArmazens()
+activate CC
+CC -> CS : getArmazens()
+activate CS
+deactivate CC
+CS -> AL : get()
+
+ref over AL
+ ./MGA/UC02-nivel3.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaArmazens
+deactivate AL
+activate CS
+CS -> CC : listaArmazens
+deactivate CS
+activate CC
+CC -> CU : listaArmazens
+deactivate CC
+CU -> A: Mostra todos os armazens presentes no sistema ao utilizador
+
+deactivate CU
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

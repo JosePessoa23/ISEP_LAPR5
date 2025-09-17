@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="495px" preserveAspectRatio="none" style="width:1300px;height:495px;background:#FAFDFF;" version="1.1" viewBox="0 0 1300 495" width="1300px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="186" x="556" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="561" y="29.5332">UC04: Criar nova Entrega</text><rect fill="#C2F0FF" height="273.1953" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="250.8438" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="488.5" y="153.5703"/><rect fill="#C2F0FF" height="220.4922" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="634" y="183.9219"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="413.4141"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="493.5" x2="493.5" y1="121.2188" y2="413.4141"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="638.5" x2="638.5" y1="121.2188" y2="413.4141"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="964" x2="964" y1="232.0313" y2="413.4141"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1080" x2="1080" y1="322.6016" y2="413.4141"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1217" x2="1217" y1="121.2188" y2="413.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Armazém</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="426.9473">Gestor de Armazém</text><ellipse cx="76.5" cy="438.5234" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,446.5234 L76.5,473.5234 M63.5,454.5234 L89.5,454.5234 M76.5,473.5234 L63.5,488.5234 M76.5,473.5234 L89.5,488.5234 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="144" x="421.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="428.5" y="110.1426">:EntregaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="144" x="421.5" y="412.4141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="428.5" y="433.9473">:EntregaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="575.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="582.5" y="110.1426">:EntregaService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="575.5" y="412.4141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="582.5" y="433.9473">:EntregaService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="73" x="928" y="412.4141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="937" y="433.9473">entrega</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="935" y="451.5566">:Entrega</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="102" x="1029" y="412.4141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1038" y="433.9473">entregaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1036" y="451.5566">:EntregaDTO</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="153" x="1141" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1148" y="110.1426">:IEntregaRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="153" x="1141" y="412.4141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1148" y="433.9473">:IEntregaRepository</text><rect fill="#C2F0FF" height="273.1953" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="250.8438" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="488.5" y="153.5703"/><rect fill="#C2F0FF" height="220.4922" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="634" y="183.9219"/><polygon fill="#1E90FF" points="476.5,149.5703,486.5,153.5703,476.5,157.5703,480.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="482.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="221.5" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="232.5" y="148.7139">HTTP request (post)</text><polygon fill="#1E90FF" points="622,179.9219,632,183.9219,622,187.9219,626,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="498.5" x2="628" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="517.75" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="528.75" y="179.0654">AddAsync(dto)</text><polygon fill="#1E90FF" points="916,226.625,926,230.625,916,234.625,920,230.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="644" x2="922" y1="230.625" y2="230.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="656" y="217.5928">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="667" y="209.417">Entrega(dto.id, dto.idLoja, dto.tempoCarga,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="676.5" y="225.7686">dto.tempoDescarga, dto.data, dto.peso)</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="73" x="928" y="191.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="937" y="213.4551">entrega</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="935" y="231.0645">:Entrega</text><polygon fill="#1E90FF" points="1205.5,270.4922,1215.5,274.4922,1205.5,278.4922,1209.5,274.4922" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="644" x2="1211.5" y1="274.4922" y2="274.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="869.75" y="269.6357">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="880.75" y="269.6357">AddAsync(entrega)</text><polygon fill="#1E90FF" points="1017,317.1953,1027,321.1953,1017,325.1953,1021,321.1953" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="644" x2="1023" y1="321.1953" y2="321.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="656" y="308.1631">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="350" x="667" y="299.9873">EntregaDTO(entrega.id, entrega.idLoja, entrega.tempoCarga,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="305" x="689.5" y="316.3389">entrega.tempoDescarga, entrega.data, entrega.peso)</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="102" x="1029" y="282.4922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1038" y="304.0254">entregaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1036" y="321.6348">:EntregaDTO</text><polygon fill="#1E90FF" points="509.5,361.0625,499.5,365.0625,509.5,369.0625,505.5,365.0625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="503.5" x2="633" y1="365.0625" y2="365.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="526.25" y="360.2061">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="537.25" y="360.2061">entregaDTO</text><polygon fill="#1E90FF" points="92.5,391.4141,82.5,395.4141,92.5,399.4141,88.5,395.4141" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="487.5" y1="395.4141" y2="395.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="93.5" y="390.5576">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="372" x="104.5" y="390.5576">Cria nova Entrega e informa o utilizador do sucesso da operaçao</text><!--MD5=[03986543917dd82edff1cb4e59064162]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title UC04: Criar nova Entrega
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entrega\n<b>:Entrega" as ARM
+participant "<b>entregaDTO\n<b>:EntregaDTO" as AD
+participant "<b>:IEntregaRepository" as AR
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> AC: HTTP request (post)
+activate AC
+
+AC -> ASR: AddAsync(dto)
+activate ASR
+
+create ARM
+ASR -> ARM: Entrega(dto.id, dto.idLoja, dto.tempoCarga,\ndto.tempoDescarga, dto.data, dto.peso)
+
+ASR -> AR: AddAsync(entrega)
+
+create AD
+ASR -> AD: EntregaDTO(entrega.id, entrega.idLoja, entrega.tempoCarga,\nentrega.tempoDescarga, entrega.data, entrega.peso)
+
+ASR -> AC: entregaDTO
+
+AC -> A: Cria nova Entrega e informa o utilizador do sucesso da operaçao
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title UC04: Criar nova Entrega
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entrega\n<b>:Entrega" as ARM
+participant "<b>entregaDTO\n<b>:EntregaDTO" as AD
+participant "<b>:IEntregaRepository" as AR
+
+
+activate A
+
+A -> AC: HTTP request (post)
+activate AC
+
+AC -> ASR: AddAsync(dto)
+activate ASR
+
+create ARM
+ASR -> ARM: Entrega(dto.id, dto.idLoja, dto.tempoCarga,\ndto.tempoDescarga, dto.data, dto.peso)
+
+ASR -> AR: AddAsync(entrega)
+
+create AD
+ASR -> AD: EntregaDTO(entrega.id, entrega.idLoja, entrega.tempoCarga,\nentrega.tempoDescarga, entrega.data, entrega.peso)
+
+ASR -> AC: entregaDTO
+
+AC -> A: Cria nova Entrega e informa o utilizador do sucesso da operaçao
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,93 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US22: Como gestor de logística pretendo criar um percurso entre dois armazéns
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as GL
+participant "<b>:RotaUI" as RUI
+participant "<b>:RotaComponent" as RC
+participant "<b>:RotaService" as RS
+participant "<b>rotaDTO\n<b>:RotaDTO" as RDTO
+participant "<b>:BackEndLogistica" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate GL
+
+GL -> RUI: Inserir dados para criar uma rota
+activate RUI
+RUI -> RC: addRota(idArmazemPartida,idArmazemChegada,distancia,tempoViagemCheio,energiaGasta,tempoCarregamentoExtra)
+activate RC
+RC -> RDTO** : create(idArmazemPartida,idArmazemChegada,distancia,tempoViagemCheio,energiaGasta,tempoCarregamentoExtra)
+RC -> RS : addRota(rotaDTO)
+activate RS
+RS -> AL : post(rota)
+
+ref over AL
+ ./ML/UC10-nivel3.puml
+end ref
+activate AL
+AL --> RS
+deactivate AL
+RS --> RC
+deactivate RS
+RC --> RUI
+deactivate RC
+deactivate RS
+RUI -> GL: Cria nova rota e informa o utilizador do sucesso da operação
+deactivate AL
+deactivate RUI
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

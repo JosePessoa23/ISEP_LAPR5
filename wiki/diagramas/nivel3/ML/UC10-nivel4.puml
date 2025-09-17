@@ -1,0 +1,116 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC10: Criar nova Rota
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:RotaRoute" as RR
+participant "<b>:IRotaController" as IRC
+participant "<b>:RotaController" as RC
+participant "<b>:IRotaService" as IRS
+participant "<b>:RotaService" as RS
+participant "<b>:RotaMapper" as RM
+participant "<b>rota\n<b>:Rota" as R
+participant "<b>rotaDTO\n<b>:RotaDTO" as RD
+participant "<b>:IRotaRepository" as IRREP
+participant "<b>:RotaRepository" as RREP
+participant "<b>:RotaSchema" as RSC
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> IRC: create(req, res, next)
+activate IRC
+
+IRC -> RC: create(req, res, next)
+activate RC
+
+
+RC -> IRS : createRota(rotaDTO)
+activate IRS
+IRS -> RS : createRota(rotaDTO)
+activate RS
+RS -> R** : rota = create(rotaDTO)
+RS -> IRREP : save(rota)
+activate IRREP
+IRREP -> RREP : save(rota)
+activate RREP
+RREP -> RSC : save(rota)
+activate RSC
+deactivate RSC
+deactivate IRREP
+deactivate RREP
+RS -> RM : rotaDTO = toDTO(rota)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS -> IRS : rotaDTO
+IRS -> RC : rotaDTO
+deactivate IRS
+deactivate RS
+RC -> IRC: rotaDTO
+IRC -> RR : rotaDTO
+deactivate IRC
+deactivate RC
+
+RR -> A: Cria nova Rota e informa o utilizador do sucesso da operaçao
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

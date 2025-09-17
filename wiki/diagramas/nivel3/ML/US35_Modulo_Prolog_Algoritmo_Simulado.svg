@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="599px" preserveAspectRatio="none" style="width:1492px;height:599px;background:#FAFDFF;" version="1.1" viewBox="0 0 1492 599" width="1492px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="1122" x="184" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1112" x="189" y="29.5332">US35: Planeamento de frota: utilização de módulo de planeamento em Prolog e outro algoritmo simulado como estratégias distintas de planeamento (Logistica)</text><rect fill="#C2F0FF" height="377.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="345.8125" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="312.5" y="153.5703"/><rect fill="#C2F0FF" height="285.1094" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="488.5" y="183.9219"/><rect fill="#C2F0FF" height="217.4063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="742.5" y="214.2734"/><rect fill="#C2F0FF" height="28" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="747.5" y="403.6797"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1026.5" y="244.625"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1201.5" y="335.3281"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1382.5" y="274.9766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="317" x2="317" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="493.5" x2="493.5" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="747" x2="747" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1031" x2="1031" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1206" x2="1206" y1="121.2188" y2="517.3828"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1387" x2="1387" y1="121.2188" y2="517.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Logística</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="530.916">Gestor de Logística</text><ellipse cx="76.5" cy="542.4922" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,550.4922 L76.5,577.4922 M63.5,558.4922 L89.5,558.4922 M76.5,577.4922 L63.5,592.4922 M76.5,577.4922 L89.5,592.4922 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="151" x="242" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="249" y="110.1426">:PlaneamentoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="151" x="242" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="249" y="537.916">:PlaneamentoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="180" x="403.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="410.5" y="110.1426">:PlaneamentoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="180" x="403.5" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="410.5" y="537.916">:PlaneamentoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="666" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="673" y="110.1426">:PlaneamentoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="666" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="673" y="537.916">:PlaneamentoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="185" x="939" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="946" y="110.1426">:PlaneamentoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="185" x="939" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="946" y="537.916">:PlaneamentoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1134" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1141" y="110.1426">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1134" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1141" y="537.916">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="197" x="1289" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="1296" y="110.1426">:BackEndGestãoArmazéns</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="197" x="1289" y="516.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="1296" y="537.916">:BackEndGestãoArmazéns</text><rect fill="#C2F0FF" height="377.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="345.8125" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="312.5" y="153.5703"/><rect fill="#C2F0FF" height="285.1094" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="488.5" y="183.9219"/><rect fill="#C2F0FF" height="217.4063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="742.5" y="214.2734"/><rect fill="#C2F0FF" height="28" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="747.5" y="403.6797"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1026.5" y="244.625"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1201.5" y="335.3281"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1382.5" y="274.9766"/><polygon fill="#1E90FF" points="300.5,149.5703,310.5,153.5703,300.5,157.5703,304.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="306.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="137" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="148" y="148.7139">HTTP request (get)</text><polygon fill="#1E90FF" points="476.5,179.9219,486.5,183.9219,476.5,187.9219,480.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="322.5" x2="482.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="332" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="343" y="179.0654">getPlano(req, res, next)</text><polygon fill="#1E90FF" points="730.5,210.2734,740.5,214.2734,730.5,218.2734,734.5,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="498.5" x2="736.5" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="508" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="519" y="209.417">plano = planeamentoAlternativo(data)</text><polygon fill="#1E90FF" points="1014.5,240.625,1024.5,244.625,1014.5,248.625,1018.5,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="752.5" x2="1020.5" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="799.5" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="810.5" y="239.7686">entregas = getEntregas(data)</text><polygon fill="#1E90FF" points="1370.5,270.9766,1380.5,274.9766,1370.5,278.9766,1374.5,274.9766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1036.5" x2="1376.5" y1="274.9766" y2="274.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1149.5" y="270.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="1160.5" y="270.1201">HTTP request (get)</text><polygon fill="#1E90FF" points="1189.5,331.3281,1199.5,335.3281,1189.5,339.3281,1193.5,335.3281" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="752.5" x2="1195.5" y1="335.3281" y2="335.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="892" y="330.4717">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="903" y="330.4717">camioes = findAllCamioes()</text><line style="stroke:#1E90FF;stroke-width:1.0;" x1="757.5" x2="799.5" y1="395.6797" y2="395.6797"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="799.5" x2="799.5" y1="395.6797" y2="408.6797"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="758.5" x2="799.5" y1="408.6797" y2="408.6797"/><polygon fill="#1E90FF" points="768.5,404.6797,758.5,408.6797,768.5,412.6797,764.5,408.6797" style="stroke:#1E90FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="764.5" y="390.8232">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="775.5" y="390.8232">massaTotal = calculaMassaTotal(entregas)</text><polygon fill="#1E90FF" points="333.5,465.0313,323.5,469.0313,333.5,473.0313,329.5,469.0313" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="327.5" x2="492.5" y1="469.0313" y2="469.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="387" y="464.1748">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="398" y="464.1748">plano</text><polygon fill="#1E90FF" points="92.5,495.3828,82.5,499.3828,92.5,503.3828,88.5,499.3828" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="316.5" y1="499.3828" y2="499.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="96" y="494.5264">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="107" y="494.5264">Retorna o planeamento alternativo</text><!--MD5=[251db881feb492e7c91864ed178f8090]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US35: Planeamento de frota: utilização de módulo de planeamento em Prolog e outro algoritmo simulado como estratégias distintas de planeamento (Logistica)
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:BackEndGestãoArmazéns" as BGA
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlano(req, res, next)
+activate PC
+
+PC -> PS : plano = planeamentoAlternativo(data)
+activate PS
+PS -> PREP : entregas = getEntregas(data)
+activate PREP
+PREP -> BGA : HTTP request (get)
+activate BGA
+deactivate BGA
+deactivate PREP
+PS -> CREP : camioes = findAllCamioes()
+activate CREP
+deactivate CREP
+PS -> PS : massaTotal = calculaMassaTotal(entregas)
+activate PS
+deactivate PS
+deactivate PS
+
+PC -> PR: plano
+deactivate PC
+
+PR -> A: Retorna o planeamento alternativo
+deactivate PR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US35: Planeamento de frota: utilização de módulo de planeamento em Prolog e outro algoritmo simulado como estratégias distintas de planeamento (Logistica)
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:BackEndGestãoArmazéns" as BGA
+
+
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlano(req, res, next)
+activate PC
+
+PC -> PS : plano = planeamentoAlternativo(data)
+activate PS
+PS -> PREP : entregas = getEntregas(data)
+activate PREP
+PREP -> BGA : HTTP request (get)
+activate BGA
+deactivate BGA
+deactivate PREP
+PS -> CREP : camioes = findAllCamioes()
+activate CREP
+deactivate CREP
+PS -> PS : massaTotal = calculaMassaTotal(entregas)
+activate PS
+deactivate PS
+deactivate PS
+
+PC -> PR: plano
+deactivate PC
+
+PR -> A: Retorna o planeamento alternativo
+deactivate PR
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

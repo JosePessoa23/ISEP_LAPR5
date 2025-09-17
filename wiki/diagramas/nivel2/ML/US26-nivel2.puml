@@ -1,0 +1,73 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US26: Como Administrador pretendo criar uma conta de utilizador indicando um número de telefone para contacto direto bem como o tipo de utilizador
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Administrador" as A
+participant "<b>:SPA" as SPA
+participant "<b>:ML" as M
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+activate SPA
+activate M
+
+A -> SPA: Insere os dados e pede para criar uma conta de utilizador
+SPA -> M: HTTP request (post)
+M -> M: Responde ao request (Cria novo utilizador e insere \nna base de dados / Informa de falha no request)
+M -> SPA: Novo utilizador
+SPA -> A: Informa o administrador do sucesso/insucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

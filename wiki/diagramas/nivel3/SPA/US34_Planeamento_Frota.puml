@@ -1,0 +1,95 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US34: Obter o planeamento da frota
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemUI" as CU
+participant "<b>:ViagemComponent" as CC
+participant "<b>:ViagemService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Insere os dados para obter o planeamento da frota
+activate CU
+CU -> CC: addViagens(data,ng,dp,pc,pm,cp)
+activate CC
+CC -> CS : addViagens(data,ng,dp,pc,pm,cp)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/US34-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : viagens
+deactivate P
+activate CS
+CS -> CC : viagens
+deactivate CS
+activate CC
+CC -> CU : viagens
+deactivate CC
+CU -> A: Mostra as viagens obtidas ao utilizador
+
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

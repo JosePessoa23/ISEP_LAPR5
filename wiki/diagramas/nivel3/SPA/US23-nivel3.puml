@@ -1,0 +1,94 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US23: Como gestor de logística pretendo listar percursos entre armazéns
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as GL
+participant "<b>:RotaUI" as RUI
+participant "<b>:RotaComponent" as RC
+participant "<b>:RotaService" as RS
+participant "<b>:BackEndLogistica" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate GL
+
+GL -> RUI: Abre a página relativa a rotas
+activate RUI
+RUI -> RC: getRotas()
+activate RC
+RC -> RS : getRotas()
+activate RS
+deactivate RC
+RS -> AL : get()
+
+ref over AL
+ ./ML/UC11-nivel3.puml
+end ref
+activate AL
+deactivate RS
+AL -> RS : listaRotas
+deactivate AL
+activate RS
+RS -> RC : listaRotas
+deactivate RS
+activate RC
+RC -> RUI : listaRotas
+deactivate RC
+RUI -> GL: Mostra todos as rotas presentes no sistema ao utilizador
+
+deactivate RUI
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

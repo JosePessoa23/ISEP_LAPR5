@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="679px" preserveAspectRatio="none" style="width:1819px;height:679px;background:#FAFDFF;" version="1.1" viewBox="0 0 1819 679" width="1819px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="157" x="832.75" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="837.75" y="29.5332">UC08: Listar Camiões</text><rect fill="#C2F0FF" height="457.2188" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="58.5" y="131.2188"/><rect fill="#C2F0FF" height="425.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="493.5" y="153.5703"/><rect fill="#C2F0FF" height="365.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="639.5" y="183.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="781" y="360.6797"/><rect fill="#C2F0FF" height="304.4609" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="992" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1112.5" y="391.0313"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1244" y="244.625"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1388.5" y="274.9766"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1729" y="451.3828"/><rect height="169.4063" style="stroke:#082642;stroke-width:1.5;fill:none;" width="1099" x="714.5" y="319.9766"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="498" x2="498" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="644.5" x2="644.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="785.5" x2="785.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="996.5" x2="996.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1117.5" x2="1117.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1248.5" x2="1248.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1393.5" x2="1393.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1499.5" x2="1499.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1599.5" x2="1599.5" y1="121.2188" y2="597.4375"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1733.5" x2="1733.5" y1="121.2188" y2="597.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="118.1426">Gestor de Frota</text><ellipse cx="63.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M63.5,60.1094 L63.5,87.1094 M50.5,68.1094 L76.5,68.1094 M63.5,87.1094 L50.5,102.1094 M63.5,87.1094 L76.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="610.9707">Gestor de Frota</text><ellipse cx="63.5" cy="622.5469" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M63.5,630.5469 L63.5,657.5469 M50.5,638.5469 L76.5,638.5469 M63.5,657.5469 L50.5,672.5469 M63.5,657.5469 L76.5,672.5469 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="111" x="443" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="450" y="110.1426">:CamiaoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="111" x="443" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="450" y="617.9707">:CamiaoRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="140" x="574.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="581.5" y="110.1426">:CamiaoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="140" x="574.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="581.5" y="617.9707">:CamiaoController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="724.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="731.5" y="110.1426">:CamiaoMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="724.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="731.5" y="617.9707">:CamiaoMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="935.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="942.5" y="110.1426">:CamiaoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="935.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="942.5" y="617.9707">:CamiaoService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="98" x="1068.5" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1078.5" y="92.5332">camiaoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1075.5" y="110.1426">:CamiaoDTO</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="98" x="1068.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1078.5" y="617.9707">camiaoDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1075.5" y="635.5801">:CamiaoDTO</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1176.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1183.5" y="110.1426">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="145" x="1176.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1183.5" y="617.9707">:CamiaoRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="124" x="1331.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1338.5" y="110.1426">:CamiaoSchema</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="124" x="1331.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1338.5" y="617.9707">:CamiaoSchema</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1465.5" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="1475.5" y="92.5332">camiao</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1472.5" y="110.1426">:Camiao</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="69" x="1465.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="1475.5" y="617.9707">camiao</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1472.5" y="635.5801">:Camiao</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="110" x="1544.5" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1559" y="92.5332">listCamioes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1551.5" y="110.1426">:List&lt;Camiao&gt;</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="110" x="1544.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1559" y="617.9707">listCamioes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1551.5" y="635.5801">:List&lt;Camiao&gt;</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="139" x="1664.5" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1679" y="92.5332">listCamioesDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1671.5" y="110.1426">:List&lt;CamiaoDTO&gt;</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="139" x="1664.5" y="596.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1679" y="617.9707">listCamioesDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1671.5" y="635.5801">:List&lt;CamiaoDTO&gt;</text><rect fill="#C2F0FF" height="457.2188" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="58.5" y="131.2188"/><rect fill="#C2F0FF" height="425.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="493.5" y="153.5703"/><rect fill="#C2F0FF" height="365.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="639.5" y="183.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="781" y="360.6797"/><rect fill="#C2F0FF" height="304.4609" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="992" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1112.5" y="391.0313"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1244" y="244.625"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1388.5" y="274.9766"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1729" y="451.3828"/><polygon fill="#1E90FF" points="481.5,149.5703,491.5,153.5703,481.5,157.5703,485.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="68.5" x2="487.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="221" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="232" y="148.7139">HTTP request (get)</text><polygon fill="#1E90FF" points="627.5,179.9219,637.5,183.9219,627.5,187.9219,631.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="503.5" x2="633.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="514.5" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="525.5" y="179.0654">get(req, res, next)</text><polygon fill="#1E90FF" points="980,210.2734,990,214.2734,980,218.2734,984,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="649.5" x2="986" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="776.75" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="787.75" y="209.417">getCamioes()</text><polygon fill="#1E90FF" points="1232,240.625,1242,244.625,1232,248.625,1236,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1002" x2="1238" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1037" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="1048" y="239.7686">listCamioes = getCamioes()</text><polygon fill="#1E90FF" points="1376.5,270.9766,1386.5,274.9766,1376.5,278.9766,1380.5,274.9766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1254" x2="1382.5" y1="274.9766" y2="274.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1301.75" y="270.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1312.75" y="270.1201">find()</text><path d="M714.5,319.9766 L787.5,319.9766 L787.5,328.3281 L777.5,338.3281 L714.5,338.3281 L714.5,319.9766 " fill="#C2F0FF" style="stroke:#082642;stroke-width:1.5;"/><rect fill="none" height="169.4063" style="stroke:#082642;stroke-width:1.5;" width="1099" x="714.5" y="319.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="729.5" y="334.4717">loop</text><a href="listCamioes" target="_top" title="listCamioes" xlink:actuate="onRequest" xlink:href="listCamioes" xlink:show="new" xlink:title="listCamioes" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="66" x="802.5" y="333.3955">listCamioes</text></a><polygon fill="#1E90FF" points="802,356.6797,792,360.6797,802,364.6797,798,360.6797" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="796" x2="991" y1="360.6797" y2="360.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="800.5" y="355.8232">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="811.5" y="355.8232">camiaoDTO = toDTO(camiao)</text><polygon fill="#1E90FF" points="1100.5,387.0313,1110.5,391.0313,1100.5,395.0313,1104.5,391.0313" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="791" x2="1106.5" y1="391.0313" y2="391.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="924.25" y="386.1748">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="935.25" y="386.1748">create()</text><polygon fill="#1E90FF" points="1717,447.3828,1727,451.3828,1717,455.3828,1721,451.3828" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1002" x2="1723" y1="451.3828" y2="451.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1311.5" y="446.5264">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1322.5" y="446.5264">add(camiaoDTO)</text><polygon fill="#1E90FF" points="660.5,514.7344,650.5,518.7344,660.5,522.7344,656.5,518.7344" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="654.5" x2="996" y1="518.7344" y2="518.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="770.75" y="513.8779">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="781.75" y="513.8779">listCamioesDTO</text><polygon fill="#1E90FF" points="514.5,545.0859,504.5,549.0859,514.5,553.0859,510.5,549.0859" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="508.5" x2="643.5" y1="549.0859" y2="549.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="518" y="544.2295">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="536" y="544.2295">listCamioesDTO</text><polygon fill="#1E90FF" points="79.5,575.4375,69.5,579.4375,79.5,583.4375,75.5,579.4375" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="73.5" x2="497.5" y1="579.4375" y2="579.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="83" y="574.5811">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="383" x="101" y="574.5811">Mostra os Camiões e informa o utilizador do sucesso da operaçao</text><!--MD5=[e70ebc6c9a7ea85baf203f2df9d10121]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title UC08: Listar Camiões
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as CR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>listCamioes\n<b>:List<Camiao>" as LC
+participant "<b>listCamioesDTO\n<b>:List<CamiaoDTO>" as LCD
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> CR: HTTP request (get)
+activate CR
+
+CR -> CC: get(req, res, next)
+activate CC
+
+CC -> CS : getCamioes()
+activate CS
+CS -> CREP : listCamioes = getCamioes()
+activate CREP
+CREP -> CSC : find()
+activate CSC
+deactivate CSC
+deactivate CREP
+
+loop [listCamioes]
+CS -> CM : camiaoDTO = toDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS-> LCD : add(camiaoDTO)
+activate LCD
+deactivate LCD
+
+end
+
+CS -> CC : listCamioesDTO
+deactivate CS
+CC -> CR: listCamioesDTO
+deactivate CC
+
+CR -> A: Mostra os Camiões e informa o utilizador do sucesso da operaçao
+deactivate CR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title UC08: Listar Camiões
+
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as CR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>listCamioes\n<b>:List<Camiao>" as LC
+participant "<b>listCamioesDTO\n<b>:List<CamiaoDTO>" as LCD
+
+
+
+activate A
+
+A -> CR: HTTP request (get)
+activate CR
+
+CR -> CC: get(req, res, next)
+activate CC
+
+CC -> CS : getCamioes()
+activate CS
+CS -> CREP : listCamioes = getCamioes()
+activate CREP
+CREP -> CSC : find()
+activate CSC
+deactivate CSC
+deactivate CREP
+
+loop [listCamioes]
+CS -> CM : camiaoDTO = toDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS-> LCD : add(camiaoDTO)
+activate LCD
+deactivate LCD
+
+end
+
+CS -> CC : listCamioesDTO
+deactivate CS
+CC -> CR: listCamioesDTO
+deactivate CC
+
+CR -> A: Mostra os Camiões e informa o utilizador do sucesso da operaçao
+deactivate CR
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

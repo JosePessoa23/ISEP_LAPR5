@@ -1,0 +1,95 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC06: Editar Entrega
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entrega\n<b>:Entrega" as ARM
+participant "<b>entregaDTO\n<b>:EntregaDTO" as AD
+participant "<b>:IEntregaRepository" as AR
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> AC: HTTP request (put)
+activate AC
+
+AC -> ASR: UpdateAsync(dto)
+activate ASR
+
+ASR -> AR: GetByIdAsync(dto.id)
+
+create ARM
+ASR -> ARM: Entrega(id, idLoja, tempoCarga, tempoDescarga, data, peso)
+
+ASR -> ARM: ChangeIdLoja(dto.idLoja)
+ASR -> ARM: ChangeTempoCarga(dto.tempoCarga)
+ASR -> ARM: ChangeTempoDescarga(dto.tempoDescarga)
+ASR -> ARM: ChangeData(dto.data)
+ASR -> ARM: ChangePeso(dto.peso)
+
+ASR -> AR:  CommitAsync()
+
+create AD
+ASR -> AD: EntregaDTO(entrega.id, entrega.idLoja, entrega.tempoCarga,\nentrega.tempoDescarga, entrega.data, entrega.peso)
+
+ASR -> AC: entregaDTO
+
+AC -> A: Edita os dados da Entrega e informa o utilizador do sucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

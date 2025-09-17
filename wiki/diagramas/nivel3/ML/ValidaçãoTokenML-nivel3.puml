@@ -1,0 +1,112 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC07: Criar novo Camiao
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as RR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+
+
+RR -> RR: validaçãoToken(token)
+alt failure case
+RR -> A : status(402)
+else successful case
+RR -> CC: create(req, res, next)
+activate CC
+CC -> CM: camiaoDTO = createCamiaoDTO()
+activate CM
+CM -> CD** : create()
+deactivate CM
+CC -> CS : createCamiao(camiaoDTO)
+activate CS
+CS -> C** : camiao = create()
+CS -> CREP : save(camiao)
+activate CREP
+CREP -> CSC : save(camiao)
+activate CSC
+deactivate CSC
+deactivate CREP
+
+
+CS -> CM : camiaoDTO = createCamiaoDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : camiaoDTO
+deactivate CS
+CC -> RR: camiaoDTO
+deactivate CC
+
+RR -> A: Cria nova Camiao e informa o utilizador do sucesso da operaçao
+deactivate RR
+end
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

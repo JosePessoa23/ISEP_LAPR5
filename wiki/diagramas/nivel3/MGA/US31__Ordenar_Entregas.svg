@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="588px" preserveAspectRatio="none" style="width:1815px;height:588px;background:#FAFDFF;" version="1.1" viewBox="0 0 1815 588" width="1815px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="178" x="817.75" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="822.75" y="29.5332">US31: Ordenar Entregas</text><rect fill="#C2F0FF" height="366.25" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="343.8984" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="724.5" y="153.5703"/><rect fill="#C2F0FF" height="313.5469" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1071.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1728" y="214.2734"/><rect height="108.9219" style="stroke:#082642;stroke-width:1.5;fill:none;" width="653.5" x="1003" y="319.8438"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="506.4688"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="729.5" x2="729.5" y1="121.2188" y2="506.4688"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1076" x2="1076" y1="121.2188" y2="506.4688"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1442.5" x2="1442.5" y1="378.3047" y2="506.4688"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1574.5" x2="1574.5" y1="292.7344" y2="506.4688"/><line style="stroke:#1E90FF;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1732.5" x2="1732.5" y1="121.2188" y2="506.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Armazém</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="520.002">Gestor de Armazém</text><ellipse cx="76.5" cy="531.5781" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,539.5781 L76.5,566.5781 M63.5,547.5781 L89.5,547.5781 M76.5,566.5781 L63.5,581.5781 M76.5,566.5781 L89.5,581.5781 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="144" x="657.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="664.5" y="110.1426">:EntregaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="144" x="657.5" y="505.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="664.5" y="527.002">:EntregaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="1013" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1020" y="110.1426">:EntregaService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="1013" y="505.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1020" y="527.002">:EntregaService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="102" x="1391.5" y="505.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1400.5" y="527.002">entregaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1398.5" y="544.6113">:EntregaDTO</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="143" x="1503.5" y="505.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1564.5" y="527.002">list</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1510.5" y="544.6113">:List&lt;EntregaDTO&gt;</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="153" x="1656.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1663.5" y="110.1426">:IEntregaRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="153" x="1656.5" y="505.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1663.5" y="527.002">:IEntregaRepository</text><rect fill="#C2F0FF" height="366.25" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="343.8984" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="724.5" y="153.5703"/><rect fill="#C2F0FF" height="313.5469" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1071.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1728" y="214.2734"/><polygon fill="#1E90FF" points="712.5,149.5703,722.5,153.5703,712.5,157.5703,716.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="718.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="343" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="354" y="148.7139">HTTP request (get)</text><polygon fill="#1E90FF" points="1059.5,179.9219,1069.5,183.9219,1059.5,187.9219,1063.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="734.5" x2="1065.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="744" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="307" x="755" y="179.0654">GetOrderByDataAsync()/GetOrderByArmazemAsync</text><polygon fill="#1E90FF" points="1716,210.2734,1726,214.2734,1716,218.2734,1720,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1081.5" x2="1722" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1245.75" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="307" x="1256.75" y="209.417">GetOrderByDataAsync()/GetOrderByArmazemAsync</text><polygon fill="#1E90FF" points="1092.5,240.625,1082.5,244.625,1092.5,248.625,1088.5,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1086.5" x2="1732" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1393.25" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="17" x="1404.25" y="239.7686">list</text><polygon fill="#1E90FF" points="1491.5,270.9766,1501.5,274.9766,1491.5,278.9766,1495.5,274.9766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1081.5" x2="1497.5" y1="274.9766" y2="274.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1244.5" y="270.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="1255.5" y="270.1201">Criar nova lista</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="143" x="1503.5" y="252.625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1564.5" y="274.1582">list</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1510.5" y="291.7676">:List&lt;EntregaDTO&gt;</text><path d="M1003,319.8438 L1076,319.8438 L1076,328.1953 L1066,338.1953 L1003,338.1953 L1003,319.8438 " fill="#C2F0FF" style="stroke:#082642;stroke-width:1.5;"/><rect fill="none" height="108.9219" style="stroke:#082642;stroke-width:1.5;" width="653.5" x="1003" y="319.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="1018" y="334.3389">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="167" x="1091" y="333.2627">[para cada Entrega ent em list]</text><polygon fill="#1E90FF" points="1379.5,372.8984,1389.5,376.8984,1379.5,380.8984,1383.5,376.8984" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1081.5" x2="1385.5" y1="376.8984" y2="376.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1093.5" y="363.8662">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="1104.5" y="355.6904">EntregaDTO(ent.id, ent.idLoja, ent.tempoCarga,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="1127" y="372.042">ent.tempoDescarga, ent.data, ent.peso)</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="102" x="1391.5" y="338.1953"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1400.5" y="359.7285">entregaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1398.5" y="377.3379">:EntregaDTO</text><polygon fill="#1E90FF" points="1563,416.7656,1573,420.7656,1563,424.7656,1567,420.7656" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1081.5" x2="1569" y1="420.7656" y2="420.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1259.25" y="415.9092">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="1270.25" y="415.9092">Adicionar entregaDTO</text><polygon fill="#1E90FF" points="745.5,454.1172,735.5,458.1172,745.5,462.1172,741.5,458.1172" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="739.5" x2="1070.5" y1="458.1172" y2="458.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="889" y="453.2607">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="17" x="900" y="453.2607">list</text><polygon fill="#1E90FF" points="92.5,484.4688,82.5,488.4688,92.5,492.4688,88.5,488.4688" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="723.5" y1="488.4688" y2="488.4688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="93.5" y="483.6123">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="608" x="104.5" y="483.6123">Lista as Entregas na base de dados de acordo com o filtro e informa o utilizador do sucesso da operaçao</text><!--MD5=[a83cff2b18e510373ecc56a9a5b97c5a]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US31: Ordenar Entregas
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entregaDTO\n<b>:EntregaDTO" as ARM
+participant "<b>list\n<b>:List<EntregaDTO>" as AL
+participant "<b>:IEntregaRepository" as AR
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> AC: HTTP request (get)
+activate AC
+
+AC -> ASR: GetOrderByDataAsync()/GetOrderByArmazemAsync
+activate ASR
+
+ASR -> AR: GetOrderByDataAsync()/GetOrderByArmazemAsync
+activate AR
+
+AR -> ASR: list
+deactivate AR
+
+create AL
+ASR -> AL: Criar nova lista
+
+loop para cada Entrega ent em list
+
+create ARM
+ASR -> ARM: EntregaDTO(ent.id, ent.idLoja, ent.tempoCarga,\nent.tempoDescarga, ent.data, ent.peso)
+ASR -> AL: Adicionar entregaDTO
+
+end loop
+
+ASR -> AC: list
+
+AC -> A: Lista as Entregas na base de dados de acordo com o filtro e informa o utilizador do sucesso da operaçao
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US31: Ordenar Entregas
+
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:EntregaController" as AC
+participant "<b>:EntregaService" as ASR
+participant "<b>entregaDTO\n<b>:EntregaDTO" as ARM
+participant "<b>list\n<b>:List<EntregaDTO>" as AL
+participant "<b>:IEntregaRepository" as AR
+
+
+
+activate A
+
+A -> AC: HTTP request (get)
+activate AC
+
+AC -> ASR: GetOrderByDataAsync()/GetOrderByArmazemAsync
+activate ASR
+
+ASR -> AR: GetOrderByDataAsync()/GetOrderByArmazemAsync
+activate AR
+
+AR -> ASR: list
+deactivate AR
+
+create AL
+ASR -> AL: Criar nova lista
+
+loop para cada Entrega ent em list
+
+create ARM
+ASR -> ARM: EntregaDTO(ent.id, ent.idLoja, ent.tempoCarga,\nent.tempoDescarga, ent.data, ent.peso)
+ASR -> AL: Adicionar entregaDTO
+
+end loop
+
+ASR -> AC: list
+
+AC -> A: Lista as Entregas na base de dados de acordo com o filtro e informa o utilizador do sucesso da operaçao
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

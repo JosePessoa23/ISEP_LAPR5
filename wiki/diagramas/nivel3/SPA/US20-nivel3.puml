@@ -1,0 +1,94 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US20: Como gestor de logística pretendo listar Camiões
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoUI" as CU
+participant "<b>:CamioesComponent" as CC
+participant "<b>:CamiaoService" as CS
+participant "<b>:BackEndLogistica" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Abre a página relativa a camiões
+activate CU
+CU -> CC: getCamioes()
+activate CC
+CC -> CS : getCamioes()
+activate CS
+deactivate CC
+CS -> AL : get()
+
+ref over AL
+ ./ML/UC08-nivel3.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaCamioes
+deactivate AL
+activate CS
+CS -> CC : listaCamioes
+deactivate CS
+activate CC
+CC -> CU : listaCamioes
+deactivate CC
+CU -> A: Mostra todos os camiões presentes no sistema ao utilizador
+
+deactivate CU
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

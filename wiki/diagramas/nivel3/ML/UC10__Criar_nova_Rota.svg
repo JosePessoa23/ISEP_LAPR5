@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="647px" preserveAspectRatio="none" style="width:1507px;height:647px;background:#FAFDFF;" version="1.1" viewBox="0 0 1507 647" width="1507px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="163" x="671" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153" x="676" y="29.5332">UC10: Criar nova Rota</text><rect fill="#C2F0FF" height="424.7344" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="393.3828" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="477.5" y="153.5703"/><rect fill="#C2F0FF" height="332.6797" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="638.5" y="183.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="761" y="395.5469"/><rect fill="#C2F0FF" height="271.9766" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="984" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1205.5" y="425.8984"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1318" y="304.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1443.5" y="335.1953"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="482.5" x2="482.5" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="643" x2="643" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="766" x2="766" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="989" x2="989" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1136" x2="1136" y1="262.3828" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1210" x2="1210" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1323" x2="1323" y1="121.2188" y2="564.9531"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1448" x2="1448" y1="121.2188" y2="564.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Logística</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="578.4863">Gestor de Logística</text><ellipse cx="76.5" cy="590.0625" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,598.0625 L76.5,625.0625 M63.5,606.0625 L89.5,606.0625 M76.5,625.0625 L63.5,640.0625 M76.5,625.0625 L89.5,640.0625 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="92" x="436.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="443.5" y="110.1426">:RotaRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="92" x="436.5" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="443.5" y="585.4863">:RotaRoute</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="121" x="583" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="590" y="110.1426">:RotaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="121" x="583" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="590" y="585.4863">:RotaController</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="104" x="714" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="721" y="110.1426">:RotaMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="104" x="714" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="721" y="585.4863">:RotaMapper</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="104" x="937" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="944" y="110.1426">:RotaService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="104" x="937" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="944" y="585.4863">:RotaService</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="50" x="1111" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="28" x="1122" y="585.4863">rota</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="36" x="1118" y="603.0957">:Rota</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="79" x="1171" y="71"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1182" y="92.5332">rotaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="1178" y="110.1426">:RotaDTO</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="79" x="1171" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1182" y="585.4863">rotaDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="1178" y="603.0957">:RotaDTO</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="126" x="1260" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1267" y="110.1426">:RotaRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="126" x="1260" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1267" y="585.4863">:RotaRepository</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="105" x="1396" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1403" y="110.1426">:RotaSchema</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="105" x="1396" y="563.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1403" y="585.4863">:RotaSchema</text><rect fill="#C2F0FF" height="424.7344" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="393.3828" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="477.5" y="153.5703"/><rect fill="#C2F0FF" height="332.6797" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="638.5" y="183.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="761" y="395.5469"/><rect fill="#C2F0FF" height="271.9766" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="984" y="214.2734"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1205.5" y="425.8984"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1318" y="304.8438"/><rect fill="#C2F0FF" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1443.5" y="335.1953"/><polygon fill="#1E90FF" points="465.5,149.5703,475.5,153.5703,465.5,157.5703,469.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="471.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="216" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="227" y="148.7139">HTTP request (post)</text><polygon fill="#1E90FF" points="626.5,179.9219,636.5,183.9219,626.5,187.9219,630.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="487.5" x2="632.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="497" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="508" y="179.0654">create(req, res, next)</text><polygon fill="#1E90FF" points="972,210.2734,982,214.2734,972,218.2734,976,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="648.5" x2="978" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="751.25" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="762.25" y="209.417">createRota(rotaDTO)</text><polygon fill="#1E90FF" points="1099,240.625,1109,244.625,1099,248.625,1103,244.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="994" x2="1105" y1="244.625" y2="244.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1006" y="239.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="1017" y="239.7686">rota = create()</text><rect fill="#1E90FF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="50" x="1111" y="222.2734"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="28" x="1122" y="243.8066">rota</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="36" x="1118" y="261.416">:Rota</text><polygon fill="#1E90FF" points="1306,300.8438,1316,304.8438,1306,308.8438,1310,304.8438" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="994" x2="1312" y1="304.8438" y2="304.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1122.5" y="299.9873">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1133.5" y="299.9873">save(rota)</text><polygon fill="#1E90FF" points="1431.5,331.1953,1441.5,335.1953,1431.5,339.1953,1435.5,335.1953" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1328" x2="1437.5" y1="335.1953" y2="335.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1352.25" y="330.3389">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1363.25" y="330.3389">save(rota)</text><polygon fill="#1E90FF" points="782,391.5469,772,395.5469,782,399.5469,778,395.5469" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="776" x2="983" y1="395.5469" y2="395.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="780.5" y="390.6904">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="791.5" y="390.6904">rotaDTO = createRotaDTO(rota)</text><polygon fill="#1E90FF" points="1193.5,421.8984,1203.5,425.8984,1193.5,429.8984,1197.5,425.8984" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="771" x2="1199.5" y1="425.8984" y2="425.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="960.75" y="421.042">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="971.75" y="421.042">create()</text><polygon fill="#1E90FF" points="659.5,482.25,649.5,486.25,659.5,490.25,655.5,486.25" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="653.5" x2="988" y1="486.25" y2="486.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="789.25" y="481.3936">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="800.25" y="481.3936">rotaDTO</text><polygon fill="#1E90FF" points="498.5,512.6016,488.5,516.6016,498.5,520.6016,494.5,516.6016" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="492.5" x2="642.5" y1="516.6016" y2="516.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="532.5" y="511.7451">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="550.5" y="511.7451">rotaDTO</text><polygon fill="#1E90FF" points="92.5,542.9531,82.5,546.9531,92.5,550.9531,88.5,546.9531" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="481.5" y1="546.9531" y2="546.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="96" y="542.0967">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="354" x="114" y="542.0967">Cria nova Rota e informa o utilizador do sucesso da operaçao</text><!--MD5=[6005ec80554fd215cf81c46768c91f44]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title UC10: Criar nova Rota
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:RotaRoute" as RR
+participant "<b>:RotaController" as RC
+participant "<b>:RotaMapper" as RM
+participant "<b>:RotaService" as RS
+participant "<b>rota\n<b>:Rota" as R
+participant "<b>rotaDTO\n<b>:RotaDTO" as RD
+participant "<b>:RotaRepository" as RREP
+participant "<b>:RotaSchema" as RSC
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> RC: create(req, res, next)
+activate RC
+
+
+RC -> RS : createRota(rotaDTO)
+activate RS
+RS -> R** : rota = create()
+RS -> RREP : save(rota)
+activate RREP
+RREP -> RSC : save(rota)
+activate RSC
+deactivate RSC
+deactivate RREP
+
+RS -> RM : rotaDTO = createRotaDTO(rota)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS -> RC : rotaDTO
+deactivate RS
+RC -> RR: rotaDTO
+deactivate RC
+
+RR -> A: Cria nova Rota e informa o utilizador do sucesso da operaçao
+deactivate RR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title UC10: Criar nova Rota
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:RotaRoute" as RR
+participant "<b>:RotaController" as RC
+participant "<b>:RotaMapper" as RM
+participant "<b>:RotaService" as RS
+participant "<b>rota\n<b>:Rota" as R
+participant "<b>rotaDTO\n<b>:RotaDTO" as RD
+participant "<b>:RotaRepository" as RREP
+participant "<b>:RotaSchema" as RSC
+
+
+
+activate A
+
+A -> RR: HTTP request (post)
+activate RR
+
+RR -> RC: create(req, res, next)
+activate RC
+
+
+RC -> RS : createRota(rotaDTO)
+activate RS
+RS -> R** : rota = create()
+RS -> RREP : save(rota)
+activate RREP
+RREP -> RSC : save(rota)
+activate RSC
+deactivate RSC
+deactivate RREP
+
+RS -> RM : rotaDTO = createRotaDTO(rota)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS -> RC : rotaDTO
+deactivate RS
+RC -> RR: rotaDTO
+deactivate RC
+
+RR -> A: Cria nova Rota e informa o utilizador do sucesso da operaçao
+deactivate RR
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

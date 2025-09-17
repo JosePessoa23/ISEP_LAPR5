@@ -1,0 +1,214 @@
+@startuml
+hide methods
+
+skinparam classAttributeIconSize 0
+
+
+
+package "aggregate armazem"{
+
+Armazem <<root>>
+
+class Armazem{
+-id
+}
+ 
+
+Endereco <<value object>>
+
+class Endereco{
+-rua
+-numero
+-codigoPostal
+-cidade
+-pais
+}
+
+Designacao <<value object>>
+
+class Designacao{
+
+}
+
+Localizacao <<value object>>
+
+class Localizacao{
+    -latitude
+    -longitude
+}
+
+}
+
+Armazem  --> "1" Endereco
+Armazem  --> "1" Designacao
+Armazem  --> "1" Localizacao
+
+package "aggregate loja"{
+Loja <<root>>
+
+class Loja{
+-id
+}
+
+Municipio <<value object>>
+
+class Municipio{
+}
+
+}
+
+Loja  --> "1" Municipio
+
+package "aggregate entrega"{
+
+Entrega <<root>>
+
+class Entrega{
+-id
+-idLoja
+}
+
+Data <<value object>>
+
+class Data{
+    -dia
+    -mes
+    -ano
+}
+
+Peso <<value object>>
+
+class Peso{
+
+}
+
+TempoCarga <<value object>>
+
+class TempoCarga{
+
+}
+
+TempoDescarga <<value object>>
+
+class TempoDescarga{
+
+}
+
+}
+
+Entrega  --> "1" Data
+Entrega  --> "1" Peso
+Entrega  --> "1" TempoCarga
+Entrega  --> "1" TempoDescarga
+
+package "aggregate rota"{
+
+Rota <<root>>
+
+class Rota{
+-idArmazemPartida
+-idArmazemChegada
+}
+
+Distancia <<value object>>
+
+class Distancia{
+
+}
+
+TempoViagemCheio <<value object>>
+
+class TempoViagemCheio{
+
+}
+
+EnergiaGasta <<value object>>
+
+class EnergiaGasta{
+
+}
+
+TempoCarregamentoExtra <<value object>>
+
+class TempoCarregamentoExtra{
+
+}
+
+}
+
+Rota  --> "1" Distancia
+Rota  --> "1" TempoViagemCheio
+Rota  --> "1" EnergiaGasta
+Rota  --> "1" TempoCarregamentoExtra
+
+
+package "aggregate camião"{
+
+Camiao <<root>>
+
+class Camiao{
+-id
+
+}
+
+Tara <<value object>>
+
+class Tara{
+
+}
+
+Matrícula <<value object>>
+
+class Matrícula{
+
+}
+
+Capacidade <<value object>>
+
+class Capacidade{
+
+}
+
+CargaBateria <<value object>>
+
+class CargaBateria{
+
+}
+
+Autonomia <<value object>>
+
+class Autonomia{
+    
+}
+
+TempoCarregamentoRapido <<value object>>
+
+class TempoCarregamentoRapido{
+    
+}
+
+Camiao  --> "1" Tara
+Camiao  --> "1" Matrícula
+Camiao  --> "1" Capacidade
+Camiao  --> "1" CargaBateria
+Camiao  --> "1" Autonomia
+Camiao  --> "1" TempoCarregamentoRapido
+
+class PlanoDeEntregas{
+
+}
+
+}
+
+Camiao "1" -- "*" Rota : segue >
+Rota "1" -- "1" Armazem : partida >
+Rota "1" -- "1" Armazem : chegada >
+Camiao "1" -- "1" Armazem : abastece >
+Camiao "1" -- "1" Armazem : entrega >
+PlanoDeEntregas "1" -- "*" Entrega : formado >
+Rota "1" -- "1" PlanoDeEntregas : formada >
+Loja "1" -- "1" Armazem: contém >
+
+
+
+@enduml

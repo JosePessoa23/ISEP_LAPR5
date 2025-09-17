@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="582px" preserveAspectRatio="none" style="width:1009px;height:582px;background:#FAFDFF;" version="1.1" viewBox="0 0 1009 582" width="1009px" zoomAndPan="magnify"><defs><filter height="300%" id="f15e0otfc8vmwa" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="554" x="225.25" y="30.6855">US29: Como gestor de logística pretendo listar as viagens por página</text><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="351.5156" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="136.25"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="320.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="428.5" y="158.6016"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="581.5" y="188.9531"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="581.5" y="418.0625"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="772.5" y="219.3047"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="772.5" y="387.7109"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="108.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="921.5" y="279.6563"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="126.25" y2="496.7656"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="433.5" x2="433.5" y1="126.25" y2="496.7656"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="586" x2="586" y1="126.25" y2="496.7656"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="777.5" x2="777.5" y1="126.25" y2="496.7656"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="926.5" x2="926.5" y1="126.25" y2="496.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="123.1738">Gestor de Logística</text><ellipse cx="76.5" cy="51.6406" fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M76.5,59.6406 L76.5,86.6406 M63.5,67.6406 L89.5,67.6406 M76.5,86.6406 L63.5,101.6406 M76.5,86.6406 L89.5,101.6406 " fill="none" filter="url(#f15e0otfc8vmwa)" style="stroke:#1E90FF;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="510.2988">Gestor de Logística</text><ellipse cx="76.5" cy="523.375" fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M76.5,531.375 L76.5,558.375 M63.5,539.375 L89.5,539.375 M76.5,558.375 L63.5,573.375 M76.5,558.375 L89.5,573.375 " fill="none" filter="url(#f15e0otfc8vmwa)" style="stroke:#1E90FF;stroke-width:2.0;"/><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="88" x="387.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="394.5" y="111.1738">:ViagensUI</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="88" x="387.5" y="495.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="394.5" y="517.2988">:ViagensUI</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="155" x="507" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="514" y="111.1738">:ViagensComponent</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="155" x="507" y="495.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="514" y="517.2988">:ViagensComponent</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="128" x="711.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="718.5" y="111.1738">:ViagensService</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="128" x="711.5" y="495.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="718.5" y="517.2988">:ViagensService</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="142" x="853.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="860.5" y="111.1738">:BackEndLogistica</text><rect fill="#1E90FF" filter="url(#f15e0otfc8vmwa)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="142" x="853.5" y="495.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="860.5" y="517.2988">:BackEndLogistica</text><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="351.5156" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="136.25"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="320.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="428.5" y="158.6016"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="581.5" y="188.9531"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="581.5" y="418.0625"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="772.5" y="219.3047"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="772.5" y="387.7109"/><rect fill="#C2F0FF" filter="url(#f15e0otfc8vmwa)" height="108.0547" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="921.5" y="279.6563"/><polygon fill="#1E90FF" points="416.5,154.6016,426.5,158.6016,416.5,162.6016,420.5,158.6016" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="422.5" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="88.5" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="99.5" y="153.7451">Abre a página relativa as viagens</text><polygon fill="#1E90FF" points="569.5,184.9531,579.5,188.9531,569.5,192.9531,573.5,188.9531" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="438.5" x2="575.5" y1="188.9531" y2="188.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="445.5" y="184.0967">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="456.5" y="184.0967">getViagensPagina()</text><polygon fill="#1E90FF" points="760.5,215.3047,770.5,219.3047,760.5,223.3047,764.5,219.3047" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="591.5" x2="766.5" y1="219.3047" y2="219.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="598.5" y="214.4482">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="609.5" y="214.4482">getViagensPagina(pagina)</text><polygon fill="#1E90FF" points="909.5,275.6563,919.5,279.6563,909.5,283.6563,913.5,279.6563" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="782.5" x2="915.5" y1="279.6563" y2="279.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="789.5" y="274.7998">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="800.5" y="274.7998">get()</text><rect fill="#FFFFFF" filter="url(#f15e0otfc8vmwa)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="148" x="850.5" y="317.6563"/><path d="M850.5,317.6563 L912.5,317.6563 L912.5,325.6563 L902.5,335.6563 L850.5,335.6563 L850.5,317.6563 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="863.5" y="333.1514">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="861.5" y="353.1514">./ML/US29-nivel3.puml</text><polygon fill="#1E90FF" points="793.5,383.7109,783.5,387.7109,793.5,391.7109,789.5,387.7109" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="787.5" x2="925.5" y1="387.7109" y2="387.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="799.5" y="382.8545">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="810.5" y="382.8545">listaViagens</text><polygon fill="#1E90FF" points="602.5,414.0625,592.5,418.0625,602.5,422.0625,598.5,418.0625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="596.5" x2="776.5" y1="418.0625" y2="418.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="608.5" y="413.2061">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="619.5" y="413.2061">listaViagens</text><polygon fill="#1E90FF" points="449.5,444.4141,439.5,448.4141,449.5,452.4141,445.5,448.4141" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="443.5" x2="585.5" y1="448.4141" y2="448.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="455.5" y="443.5576">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="466.5" y="443.5576">listaViagens</text><polygon fill="#1E90FF" points="92.5,474.7656,82.5,478.7656,92.5,482.7656,88.5,478.7656" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="432.5" y1="478.7656" y2="478.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="98.5" y="473.9092">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="109.5" y="473.9092">Mostra as Viagens presentes no sistema ao utilizador</text><!--MD5=[322862d95c5ee76ce8f6dadc75b23c63]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as GL
+participant "<b>:ViagensUI" as RUI
+participant "<b>:ViagensComponent" as RC
+participant "<b>:ViagensService" as RS
+participant "<b>:BackEndLogistica" as AL
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate GL
+
+GL -> RUI: Abre a página relativa as viagens
+activate RUI
+RUI -> RC: getViagensPagina()
+activate RC
+RC -> RS : getViagensPagina(pagina)
+activate RS
+deactivate RC
+RS -> AL : get()
+
+ref over AL
+ ./ML/US29-nivel3.puml
+end ref
+activate AL
+deactivate RS
+AL -> RS : listaViagens
+deactivate AL
+activate RS
+RS -> RC : listaViagens
+deactivate RS
+activate RC
+RC -> RUI : listaViagens
+deactivate RC
+RUI -> GL: Mostra as Viagens presentes no sistema ao utilizador
+
+deactivate RUI
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+
+actor "<b>Gestor de Logística" as GL
+participant "<b>:ViagensUI" as RUI
+participant "<b>:ViagensComponent" as RC
+participant "<b>:ViagensService" as RS
+participant "<b>:BackEndLogistica" as AL
+
+
+
+activate GL
+
+GL -> RUI: Abre a página relativa as viagens
+activate RUI
+RUI -> RC: getViagensPagina()
+activate RC
+RC -> RS : getViagensPagina(pagina)
+activate RS
+deactivate RC
+RS -> AL : get()
+
+ref over AL
+ ./ML/US29-nivel3.puml
+end ref
+activate AL
+deactivate RS
+AL -> RS : listaViagens
+deactivate AL
+activate RS
+RS -> RC : listaViagens
+deactivate RS
+activate RC
+RC -> RUI : listaViagens
+deactivate RC
+RUI -> GL: Mostra as Viagens presentes no sistema ao utilizador
+
+deactivate RUI
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

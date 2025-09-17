@@ -1,0 +1,111 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US27: Como Administrador pretendo cancelar uma conta anonimizando os dados pessoais que tenham sido recolhidos
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Administrador" as A
+participant "<b>:UserRoute" as CR
+participant "<b>:UserController" as CC
+participant "<b>:UserMapper" as CM
+participant "<b>:UserService" as CS
+participant "<b>:UserRepository" as CREP
+participant "<b>:UserSchema" as CSC
+participant "<b>user\n<b>:User" as C
+participant "<b>userDTO\n<b>:UserDTO" as CD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CR: HTTP request (put)
+activate CR
+
+CR -> CC: update(req, res, next)
+activate CC
+
+
+CC -> CS : updateUser(userDTO)
+activate CS
+CS -> CREP : user = findByEmail(userDTO.email)
+activate CREP
+CREP -> CSC : findOne(email)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> C : setName("empty")
+activate C
+CS -> C : setPhoneNumber(999999999)
+CS -> C : setRole("empty")
+deactivate C
+CS -> CREP : save(user)
+activate CREP
+CREP -> CSC : save(user)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> CM : userDTO = toDTO(user)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : userDTO
+deactivate CS
+CC -> CR: userDTO
+deactivate CC
+
+CR -> A: Cancela a conta e informa o utilizador do sucesso da operaçao
+deactivate CR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

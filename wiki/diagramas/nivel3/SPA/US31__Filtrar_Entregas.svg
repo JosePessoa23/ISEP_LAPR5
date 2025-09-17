@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="588px" preserveAspectRatio="none" style="width:1833px;height:588px;background:#FAFDFF;" version="1.1" viewBox="0 0 1833 588" width="1833px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="414" x="707" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="404" x="712" y="29.5332">US31: Como gestor de armazéns pretendo filtrar Entregas</text><rect fill="#C2F0FF" height="366.6094" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="74" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="571" y="169.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="951" y="200.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="951" y="428.125"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1331" y="230.625"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1331" y="397.7734"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1711" y="290.9766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="79" x2="79" y1="121.2188" y2="506.8281"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="575.5" x2="575.5" y1="121.2188" y2="506.8281"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="956" x2="956" y1="121.2188" y2="506.8281"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1335.5" x2="1335.5" y1="121.2188" y2="506.8281"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1716" x2="1716" y1="121.2188" y2="506.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="5" y="118.1426">Gestor de Armazens</text><ellipse cx="79" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M79,60.1094 L79,87.1094 M66,68.1094 L92,68.1094 M79,87.1094 L66,102.1094 M79,87.1094 L92,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="5" y="520.3613">Gestor de Armazens</text><ellipse cx="79" cy="531.9375" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M79,539.9375 L79,566.9375 M66,547.9375 L92,547.9375 M79,566.9375 L66,581.9375 M79,566.9375 L92,581.9375 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="87" x="532.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="539.5" y="110.1426">:EntregaUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="87" x="532.5" y="505.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="539.5" y="527.3613">:EntregaUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="154" x="879" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="140" x="886" y="110.1426">:EntregaComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="154" x="879" y="505.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="140" x="886" y="527.3613">:EntregaComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="1272.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1279.5" y="110.1426">:EntregaService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="127" x="1272.5" y="505.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1279.5" y="527.3613">:EntregaService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="216" x="1608" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="1615" y="110.1426">:BackEndGestaoDeArmazens</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="216" x="1608" y="505.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="1615" y="527.3613">:BackEndGestaoDeArmazens</text><rect fill="#C2F0FF" height="366.6094" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="74" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="571" y="169.9219"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="951" y="200.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="951" y="428.125"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1331" y="230.625"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1331" y="397.7734"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1711" y="290.9766"/><polygon fill="#1E90FF" points="559,165.9219,569,169.9219,559,173.9219,563,169.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="84" x2="565" y1="169.9219" y2="169.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="165.5" y="156.8896">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="309" x="176.5" y="148.7139">Abre a página relativa a entregas e seleciona a opção</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="237.5" y="165.0654">Pesquisar pela data/por armazém</text><polygon fill="#1E90FF" points="939,196.2734,949,200.2734,939,204.2734,943,200.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="581" x2="945" y1="200.2734" y2="200.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="590.5" y="195.417">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="601.5" y="195.417">getEntregaByArmazem(armazem)/getEntregaByData(data)</text><polygon fill="#1E90FF" points="1319,226.625,1329,230.625,1319,234.625,1323,230.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="961" x2="1325" y1="230.625" y2="230.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="970.5" y="225.7686">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="981.5" y="225.7686">getEntregaByArmazem(armazem)/getEntregaByData(data)</text><polygon fill="#1E90FF" points="1699,286.9766,1709,290.9766,1699,294.9766,1703,290.9766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1341" x2="1705" y1="290.9766" y2="290.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1350.5" y="286.1201">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="1361.5" y="286.1201">getEntregaByArmazem(armazem)/getEntregaByData(data)</text><rect height="41.4453" style="stroke:#000000;stroke-width:1.5;fill:none;" width="222" x="1605" y="328.9766"/><path d="M1605,328.9766 L1667,328.9766 L1667,336.9766 L1657,346.9766 L1605,346.9766 L1605,328.9766 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="1618" y="344.4717">ref</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="191" x="1620.5" y="363.4336">./MGA/US31_Filtrar_Entregas.puml</text><polygon fill="#1E90FF" points="1352,393.7734,1342,397.7734,1352,401.7734,1348,397.7734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1346" x2="1715" y1="397.7734" y2="397.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1485" y="392.917">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="1496" y="392.917">listaEntregas</text><polygon fill="#1E90FF" points="972,424.125,962,428.125,972,432.125,968,428.125" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="966" x2="1335" y1="428.125" y2="428.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1105" y="423.2686">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="1116" y="423.2686">listaEntregas</text><polygon fill="#1E90FF" points="592,454.4766,582,458.4766,592,462.4766,588,458.4766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="586" x2="955" y1="458.4766" y2="458.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="725" y="453.6201">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="736" y="453.6201">listaEntregas</text><polygon fill="#1E90FF" points="95,484.8281,85,488.8281,95,492.8281,91,488.8281" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="89" x2="575" y1="488.8281" y2="488.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="98.5" y="483.9717">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="452" x="109.5" y="483.9717">Mostra as entregas, de acordo com o filtro, presentes no sistema ao utilizador</text><!--MD5=[ba902fdd3d41a99b46dee073c04f28c0]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US31: Como gestor de armazéns pretendo filtrar Entregas
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:EntregaUI" as CU
+participant "<b>:EntregaComponent" as CC
+participant "<b>:EntregaService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> CU: Abre a página relativa a entregas e seleciona a opção \n Pesquisar pela data/por armazém
+activate CU
+CU -> CC: getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CC
+CC -> CS : getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CS
+deactivate CC
+CS -> AL : getEntregaByArmazem(armazem)/getEntregaByData(data)
+
+ref over AL
+ ./MGA/US31_Filtrar_Entregas.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaEntregas
+deactivate AL
+activate CS
+CS -> CC : listaEntregas
+deactivate CS
+activate CC
+CC -> CU : listaEntregas
+deactivate CC
+CU -> A: Mostra as entregas, de acordo com o filtro, presentes no sistema ao utilizador
+
+deactivate CU
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US31: Como gestor de armazéns pretendo filtrar Entregas
+
+
+actor "<b>Gestor de Armazens" as A
+participant "<b>:EntregaUI" as CU
+participant "<b>:EntregaComponent" as CC
+participant "<b>:EntregaService" as CS
+participant "<b>:BackEndGestaoDeArmazens" as AL
+
+
+
+activate A
+
+A -> CU: Abre a página relativa a entregas e seleciona a opção \n Pesquisar pela data/por armazém
+activate CU
+CU -> CC: getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CC
+CC -> CS : getEntregaByArmazem(armazem)/getEntregaByData(data)
+activate CS
+deactivate CC
+CS -> AL : getEntregaByArmazem(armazem)/getEntregaByData(data)
+
+ref over AL
+ ./MGA/US31_Filtrar_Entregas.puml
+end ref
+activate AL
+deactivate CS
+AL -> CS : listaEntregas
+deactivate AL
+activate CS
+CS -> CC : listaEntregas
+deactivate CS
+activate CC
+CC -> CU : listaEntregas
+deactivate CC
+CU -> A: Mostra as entregas, de acordo com o filtro, presentes no sistema ao utilizador
+
+deactivate CU
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="572px" preserveAspectRatio="none" style="width:1058px;height:572px;background:#FAFDFF;" version="1.1" viewBox="0 0 1058 572" width="1058px" zoomAndPan="magnify"><defs/><g><rect fill="#FAFDFF" height="27.6094" style="stroke:#00000000;stroke-width:1.0;" width="484" x="284.75" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="474" x="289.75" y="29.5332">US25: Obter o planeamento da rota para 1 camião e 1 dado dia (SPA)</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="457.5" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="624.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="624.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="811" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="811" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="973.5" y="274.625"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="462" x2="462" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="629.5" x2="629.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="815.5" x2="815.5" y1="121.2188" y2="490.4766"/><line style="stroke:#1E90FF;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="978.5" x2="978.5" y1="121.2188" y2="490.4766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="118.1426">Gestor de Logística</text><ellipse cx="76.5" cy="52.1094" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,60.1094 L76.5,87.1094 M63.5,68.1094 L89.5,68.1094 M76.5,87.1094 L63.5,102.1094 M76.5,87.1094 L89.5,102.1094 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="504.0098">Gestor de Logística</text><ellipse cx="76.5" cy="515.5859" fill="#C2F0FF" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:0.5;"/><path d="M76.5,523.5859 L76.5,550.5859 M63.5,531.5859 L89.5,531.5859 M76.5,550.5859 L63.5,565.5859 M76.5,550.5859 L89.5,565.5859 " fill="none" style="stroke:#1E90FF;stroke-width:0.5;"/><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="401" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="408" y="110.1426">:PlaneamentoUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="123" x="401" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="408" y="511.0098">:PlaneamentoUI</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="190" x="534.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="541.5" y="110.1426">:PlaneamentoComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="190" x="534.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="541.5" y="511.0098">:PlaneamentoComponent</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="734.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="741.5" y="110.1426">:PlaneamentoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="163" x="734.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="741.5" y="511.0098">:PlaneamentoService</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="142" x="907.5" y="88.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="914.5" y="110.1426">:BackEndLogistica</text><rect fill="#1E90FF" height="31.6094" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:0.5;" width="142" x="907.5" y="489.4766"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="914.5" y="511.0098">:BackEndLogistica</text><rect fill="#C2F0FF" height="350.2578" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="131.2188"/><rect fill="#C2F0FF" height="318.9063" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="457.5" y="153.5703"/><rect fill="#C2F0FF" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="624.5" y="183.9219"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="624.5" y="411.7734"/><rect fill="#C2F0FF" height="90.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="811" y="214.2734"/><rect fill="#C2F0FF" height="30.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="811" y="381.4219"/><rect fill="#C2F0FF" height="106.7969" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="973.5" y="274.625"/><polygon fill="#1E90FF" points="445.5,149.5703,455.5,153.5703,445.5,157.5703,449.5,153.5703" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="451.5" y1="153.5703" y2="153.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="91" y="148.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="346" x="102" y="148.7139">Insere a data do dia para que pretende obter o Planeamento</text><polygon fill="#1E90FF" points="612.5,179.9219,622.5,183.9219,612.5,187.9219,616.5,183.9219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="467.5" x2="618.5" y1="183.9219" y2="183.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="477" y="179.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="488" y="179.0654">getPlaneamento(data)</text><polygon fill="#1E90FF" points="799,210.2734,809,214.2734,799,218.2734,803,214.2734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="634.5" x2="805" y1="214.2734" y2="214.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="649.25" y="209.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="660.25" y="209.417">getPlanoEntregas(data)</text><polygon fill="#1E90FF" points="961.5,270.625,971.5,274.625,961.5,278.625,965.5,274.625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="821" x2="967.5" y1="274.625" y2="274.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="837.25" y="269.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="848.25" y="269.7686">HTTP request (get)</text><rect height="41.4453" style="stroke:#000000;stroke-width:1.5;fill:none;" width="148" x="904.5" y="312.625"/><path d="M904.5,312.625 L966.5,312.625 L966.5,320.625 L956.5,330.625 L904.5,330.625 L904.5,312.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="917.5" y="328.1201">ref</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="124" x="916.5" y="347.082">./ML/UC08-nivel3.puml</text><polygon fill="#1E90FF" points="832,377.4219,822,381.4219,832,385.4219,828,381.4219" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="826" x2="977.5" y1="381.4219" y2="381.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="857.25" y="376.5654">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="868.25" y="376.5654">planeamento</text><polygon fill="#1E90FF" points="645.5,407.7734,635.5,411.7734,645.5,415.7734,641.5,411.7734" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="639.5" x2="815" y1="411.7734" y2="411.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="682.75" y="406.917">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="693.75" y="406.917">planeamento</text><polygon fill="#1E90FF" points="478.5,438.125,468.5,442.125,478.5,446.125,474.5,442.125" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="472.5" x2="628.5" y1="442.125" y2="442.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="506" y="437.2686">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="517" y="437.2686">planeamento</text><polygon fill="#1E90FF" points="92.5,468.4766,82.5,472.4766,92.5,476.4766,88.5,472.4766" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="461.5" y1="472.4766" y2="472.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="145.5" y="467.6201">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="156.5" y="467.6201">Mostra o planeamento obtido ao utilizador</text><!--MD5=[51e44423cfb1ddc31d816f8ef707af5d]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US25: Obter o planeamento da rota para 1 camião e 1 dado dia (SPA)
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoUI" as CU
+participant "<b>:PlaneamentoComponent" as CC
+participant "<b>:PlaneamentoService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> CU: Insere a data do dia para que pretende obter o Planeamento
+activate CU
+CU -> CC: getPlaneamento(data)
+activate CC
+CC -> CS : getPlanoEntregas(data)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/UC08-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : planeamento
+deactivate P
+activate CS
+CS -> CC : planeamento
+deactivate CS
+activate CC
+CC -> CU : planeamento
+deactivate CC
+CU -> A: Mostra o planeamento obtido ao utilizador
+
+deactivate CU
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US25: Obter o planeamento da rota para 1 camião e 1 dado dia (SPA)
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoUI" as CU
+participant "<b>:PlaneamentoComponent" as CC
+participant "<b>:PlaneamentoService" as CS
+participant "<b>:BackEndLogistica" as P
+
+
+
+activate A
+
+A -> CU: Insere a data do dia para que pretende obter o Planeamento
+activate CU
+CU -> CC: getPlaneamento(data)
+activate CC
+CC -> CS : getPlanoEntregas(data)
+activate CS
+deactivate CC
+CS -> P: HTTP request (get)
+
+ref over P
+ ./ML/UC08-nivel3.puml
+end ref
+
+activate P
+deactivate CS
+P -> CS : planeamento
+deactivate P
+activate CS
+CS -> CC : planeamento
+deactivate CS
+activate CC
+CC -> CU : planeamento
+deactivate CC
+CU -> A: Mostra o planeamento obtido ao utilizador
+
+deactivate CU
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

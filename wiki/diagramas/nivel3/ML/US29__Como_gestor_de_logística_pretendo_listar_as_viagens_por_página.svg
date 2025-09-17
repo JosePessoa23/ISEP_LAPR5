@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="688px" preserveAspectRatio="none" style="width:1800px;height:688px;background:#FAFDFF;" version="1.1" viewBox="0 0 1800 688" width="1800px" zoomAndPan="magnify"><defs><filter height="300%" id="f159flti5wwxn3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="554" x="621" y="30.6855">US29: Como gestor de logística pretendo listar as viagens por página</text><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="457.2188" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="136.25"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="425.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="502.5" y="158.6016"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="365.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="645.5" y="188.9531"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="791" y="365.7109"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="304.4609" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1067" y="219.3047"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1191.5" y="396.0625"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1338" y="249.6563"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1554" y="280.0078"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1699.5" y="456.4141"/><rect fill="#FAFDFF" filter="url(#f159flti5wwxn3)" height="169.4063" style="stroke:#082642;stroke-width:2.0;" width="1063.5" x="722.5" y="325.0078"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="507" x2="507" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="650.5" x2="650.5" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="795.5" x2="795.5" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1071.5" x2="1071.5" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1196.5" x2="1196.5" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1342.5" x2="1342.5" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1559" x2="1559" y1="126.25" y2="602.4688"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1704" x2="1704" y1="126.25" y2="602.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="123.1738">Gestor de Logística</text><ellipse cx="76.5" cy="51.6406" fill="#C2F0FF" filter="url(#f159flti5wwxn3)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M76.5,59.6406 L76.5,86.6406 M63.5,67.6406 L89.5,67.6406 M76.5,86.6406 L63.5,101.6406 M76.5,86.6406 L89.5,101.6406 " fill="none" filter="url(#f159flti5wwxn3)" style="stroke:#1E90FF;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="5" y="616.002">Gestor de Logística</text><ellipse cx="76.5" cy="629.0781" fill="#C2F0FF" filter="url(#f159flti5wwxn3)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M76.5,637.0781 L76.5,664.0781 M63.5,645.0781 L89.5,645.0781 M76.5,664.0781 L63.5,679.0781 M76.5,664.0781 L89.5,679.0781 " fill="none" filter="url(#f159flti5wwxn3)" style="stroke:#1E90FF;stroke-width:2.0;"/><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="111" x="450" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="457" y="111.1738">:ViagemRoute</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="111" x="450" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="457" y="623.002">:ViagemRoute</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="140" x="578.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="585.5" y="111.1738">:ViagemController</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="140" x="578.5" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="585.5" y="623.002">:ViagemController</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="123" x="732.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="739.5" y="111.1738">:ViagemMapper</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="123" x="732.5" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="739.5" y="623.002">:ViagemMapper</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="123" x="1008.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1015.5" y="111.1738">:ViagemService</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="123" x="1008.5" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1015.5" y="623.002">:ViagemService</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="49.2188" style="stroke:#1E90FF;stroke-width:1.5;" width="98" x="1145.5" y="72.0313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="80" x="1154.5" y="93.5645">viagemDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1152.5" y="111.1738">:ViagemDTO</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="49.2188" style="stroke:#1E90FF;stroke-width:1.5;" width="98" x="1145.5" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="80" x="1154.5" y="623.002">viagemDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1152.5" y="640.6113">:ViagemDTO</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="145" x="1268.5" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1275.5" y="111.1738">:ViagemRepository</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="145" x="1268.5" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1275.5" y="623.002">:ViagemRepository</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="124" x="1495" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1502" y="111.1738">:ViagemSchema</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="124" x="1495" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1502" y="623.002">:ViagemSchema</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="49.2188" style="stroke:#1E90FF;stroke-width:1.5;" width="139" x="1633" y="72.0313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="1649.5" y="93.5645">listViagensDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1640" y="111.1738">:List&lt;ViagemDTO&gt;</text><rect fill="#1E90FF" filter="url(#f159flti5wwxn3)" height="49.2188" style="stroke:#1E90FF;stroke-width:1.5;" width="139" x="1633" y="601.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="1649.5" y="623.002">listViagensDTO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1640" y="640.6113">:List&lt;ViagemDTO&gt;</text><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="457.2188" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="71.5" y="136.25"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="425.8672" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="502.5" y="158.6016"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="365.1641" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="645.5" y="188.9531"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="791" y="365.7109"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="304.4609" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1067" y="219.3047"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1191.5" y="396.0625"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="60.3516" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1338" y="249.6563"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1554" y="280.0078"/><rect fill="#C2F0FF" filter="url(#f159flti5wwxn3)" height="30" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="1699.5" y="456.4141"/><polygon fill="#1E90FF" points="490.5,154.6016,500.5,158.6016,490.5,162.6016,494.5,158.6016" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="81.5" x2="496.5" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="88.5" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="99.5" y="153.7451">HTTP request (get)</text><polygon fill="#1E90FF" points="633.5,184.9531,643.5,188.9531,633.5,192.9531,637.5,188.9531" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="512.5" x2="639.5" y1="188.9531" y2="188.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="519.5" y="184.0967">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="530.5" y="184.0967">get(req, res, next)</text><polygon fill="#1E90FF" points="1055,215.3047,1065,219.3047,1055,223.3047,1059,219.3047" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="655.5" x2="1061" y1="219.3047" y2="219.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="662.5" y="214.4482">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="673.5" y="214.4482">getViagensPagina(pagina)</text><polygon fill="#1E90FF" points="1326,245.6563,1336,249.6563,1326,253.6563,1330,249.6563" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1077" x2="1332" y1="249.6563" y2="249.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1084" y="244.7998">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="1095" y="244.7998">listViagens = getViagensPagina(pagina)</text><polygon fill="#1E90FF" points="1542,276.0078,1552,280.0078,1542,284.0078,1546,280.0078" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1348" x2="1548" y1="280.0078" y2="280.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1355" y="275.1514">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="1366" y="275.1514">find().limit(5).skip(5*(pagina-1))</text><path d="M722.5,325.0078 L795.5,325.0078 L795.5,333.0078 L785.5,343.0078 L722.5,343.0078 L722.5,325.0078 " fill="#C2F0FF" style="stroke:#082642;stroke-width:1.0;"/><rect fill="none" height="169.4063" style="stroke:#082642;stroke-width:2.0;" width="1063.5" x="722.5" y="325.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="737.5" y="339.5029">loop</text><a href="listRotas" target="_top" title="listRotas" xlink:actuate="onRequest" xlink:href="listRotas" xlink:show="new" xlink:title="listRotas" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="48" x="810.5" y="338.4268">listRotas</text></a><polygon fill="#1E90FF" points="812,361.7109,802,365.7109,812,369.7109,808,365.7109" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="806" x2="1066" y1="365.7109" y2="365.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="818" y="360.8545">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="829" y="360.8545">viagemDTO = createViagemDTO(viagem)</text><polygon fill="#1E90FF" points="1179.5,392.0625,1189.5,396.0625,1179.5,400.0625,1183.5,396.0625" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="801" x2="1185.5" y1="396.0625" y2="396.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="808" y="391.2061">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="819" y="391.2061">create()</text><polygon fill="#1E90FF" points="1687.5,452.4141,1697.5,456.4141,1687.5,460.4141,1691.5,456.4141" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="1077" x2="1693.5" y1="456.4141" y2="456.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1084" y="451.5576">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="1095" y="451.5576">add(viagemDTO)</text><polygon fill="#1E90FF" points="666.5,519.7656,656.5,523.7656,666.5,527.7656,662.5,523.7656" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="660.5" x2="1071" y1="523.7656" y2="523.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="672.5" y="518.9092">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="683.5" y="518.9092">listViagensDTO</text><polygon fill="#1E90FF" points="523.5,550.1172,513.5,554.1172,523.5,558.1172,519.5,554.1172" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="517.5" x2="649.5" y1="554.1172" y2="554.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="529.5" y="549.2607">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="547.5" y="549.2607">listViagensDTO</text><polygon fill="#1E90FF" points="92.5,580.4688,82.5,584.4688,92.5,588.4688,88.5,584.4688" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="86.5" x2="506.5" y1="584.4688" y2="584.4688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="98.5" y="579.6123">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="379" x="116.5" y="579.6123">Mostra as Viagens e informa o utilizador do sucesso da operaçao</text><!--MD5=[c2fc8a7e2427ffbdffae15cf70ab1956]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemRoute" as RR
+participant "<b>:ViagemController" as RC
+participant "<b>:ViagemMapper" as RM
+participant "<b>:ViagemService" as RS
+participant "<b>viagemDTO\n<b>:ViagemDTO" as RD
+participant "<b>:ViagemRepository" as RREP
+participant "<b>:ViagemSchema" as RSC
+participant "<b>listViagensDTO\n<b>:List<ViagemDTO>" as LRD
+
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+
+A -> RR: HTTP request (get)
+activate RR
+
+RR -> RC: get(req, res, next)
+activate RC
+
+RC -> RS : getViagensPagina(pagina)
+activate RS
+RS -> RREP : listViagens = getViagensPagina(pagina)
+activate RREP
+RREP -> RSC : find().limit(5).skip(5*(pagina-1))
+activate RSC
+deactivate RSC
+deactivate RREP
+
+loop [listRotas]
+RS -> RM : viagemDTO = createViagemDTO(viagem)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS-> LRD : add(viagemDTO)
+activate LRD
+deactivate LRD
+
+end
+
+RS -> RC : listViagensDTO
+deactivate RS
+RC -> RR: listViagensDTO
+deactivate RC
+
+RR -> A: Mostra as Viagens e informa o utilizador do sucesso da operaçao
+deactivate RR
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:ViagemRoute" as RR
+participant "<b>:ViagemController" as RC
+participant "<b>:ViagemMapper" as RM
+participant "<b>:ViagemService" as RS
+participant "<b>viagemDTO\n<b>:ViagemDTO" as RD
+participant "<b>:ViagemRepository" as RREP
+participant "<b>:ViagemSchema" as RSC
+participant "<b>listViagensDTO\n<b>:List<ViagemDTO>" as LRD
+
+
+
+activate A
+
+A -> RR: HTTP request (get)
+activate RR
+
+RR -> RC: get(req, res, next)
+activate RC
+
+RC -> RS : getViagensPagina(pagina)
+activate RS
+RS -> RREP : listViagens = getViagensPagina(pagina)
+activate RREP
+RREP -> RSC : find().limit(5).skip(5*(pagina-1))
+activate RSC
+deactivate RSC
+deactivate RREP
+
+loop [listRotas]
+RS -> RM : viagemDTO = createViagemDTO(viagem)
+activate RM
+RM -> RD : create()
+activate RD
+deactivate RD
+deactivate RM
+RS-> LRD : add(viagemDTO)
+activate LRD
+deactivate LRD
+
+end
+
+RS -> RC : listViagensDTO
+deactivate RS
+RC -> RR: listViagensDTO
+deactivate RC
+
+RR -> A: Mostra as Viagens e informa o utilizador do sucesso da operaçao
+deactivate RR
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

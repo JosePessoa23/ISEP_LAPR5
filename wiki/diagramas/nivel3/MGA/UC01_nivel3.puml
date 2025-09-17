@@ -1,0 +1,86 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC01: Criar novo Armazém
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Armazém" as A
+participant "<b>:ArmazemController" as AC
+participant "<b>:ArmazemService" as ASR
+participant "<b>armazem\n<b>:Armazem" as ARM
+participant "<b>armazemDTO\n<b>:ArmazemDTO" as AD
+participant "<b>:IArmazemRepository" as AR
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> AC: HTTP request (post)
+activate AC
+
+AC -> ASR: AddAsync(dto)
+activate ASR
+
+create ARM
+ASR -> ARM: Armazem(dto.id, dto.endereco, dto.designacao, dto.coordenadas)
+
+ASR -> AR: AddAsync(armazem)
+
+create AD
+ASR -> AD: ArmazemDTO(armazem.id, armazem.endereco, armazem.designacao, armazem.coordenadas)
+
+ASR -> AC: armazemDTO
+
+AC -> A: Cria novo Armazém e informa o utilizador do sucesso da operaçao
+
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

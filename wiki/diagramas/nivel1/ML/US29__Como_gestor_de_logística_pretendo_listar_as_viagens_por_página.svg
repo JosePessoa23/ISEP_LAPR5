@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="292px" preserveAspectRatio="none" style="width:579px;height:292px;background:#FAFDFF;" version="1.1" viewBox="0 0 579 292" width="579px" zoomAndPan="magnify"><defs><filter height="300%" id="f1e8mq8xrzjusc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="554" x="9" y="30.6855">US29: Como gestor de logística pretendo listar as viagens por página</text><rect fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" height="61.7031" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="86.75" y="136.25"/><rect fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" height="61.7031" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="510.75" y="136.25"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="91.25" x2="91.25" y1="126.25" y2="206.9531"/><line style="stroke:#1E90FF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="515.75" x2="515.75" y1="126.25" y2="206.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="20.25" y="123.1738">Gestor de Logística</text><ellipse cx="91.75" cy="51.6406" fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M91.75,59.6406 L91.75,86.6406 M78.75,67.6406 L104.75,67.6406 M91.75,86.6406 L78.75,101.6406 M91.75,86.6406 L104.75,101.6406 " fill="none" filter="url(#f1e8mq8xrzjusc)" style="stroke:#1E90FF;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="20.25" y="220.4863">Gestor de Logística</text><ellipse cx="91.75" cy="233.5625" fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" rx="8" ry="8" style="stroke:#1E90FF;stroke-width:2.0;"/><path d="M91.75,241.5625 L91.75,268.5625 M78.75,249.5625 L104.75,249.5625 M91.75,268.5625 L78.75,283.5625 M91.75,268.5625 L104.75,283.5625 " fill="none" filter="url(#f1e8mq8xrzjusc)" style="stroke:#1E90FF;stroke-width:2.0;"/><rect fill="#1E90FF" filter="url(#f1e8mq8xrzjusc)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="68" x="479.75" y="89.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="486.75" y="111.1738">:System</text><rect fill="#1E90FF" filter="url(#f1e8mq8xrzjusc)" height="31.6094" style="stroke:#1E90FF;stroke-width:1.5;" width="68" x="479.75" y="205.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="486.75" y="227.4863">:System</text><rect fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" height="61.7031" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="86.75" y="136.25"/><rect fill="#C2F0FF" filter="url(#f1e8mq8xrzjusc)" height="61.7031" style="stroke:#1E90FF;stroke-width:1.0;" width="10" x="510.75" y="136.25"/><polygon fill="#1E90FF" points="498.75,154.6016,508.75,158.6016,498.75,162.6016,502.75,158.6016" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="96.75" x2="504.75" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="103.75" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="114.75" y="153.7451">Pede para listar as Viagens</text><polygon fill="#1E90FF" points="107.75,184.9531,97.75,188.9531,107.75,192.9531,103.75,188.9531" style="stroke:#1E90FF;stroke-width:1.0;"/><line style="stroke:#1E90FF;stroke-width:1.0;" x1="101.75" x2="509.75" y1="188.9531" y2="188.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="113.75" y="184.0967">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="379" x="124.75" y="184.0967">Mostra as Viagens e informa o utilizador do sucesso da operaçao</text><!--MD5=[e792fa63c96b1d45bb01c3b6b57f947d]
+@startuml hello
+
+'-Style- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+'-Actors/Participants- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:System" as S
+
+'-Associations- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+activate A
+activate S
+
+A -> S: Pede para listar as Viagens
+S -> A: Mostra as Viagens e informa o utilizador do sucesso da operaçao
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@enduml
+
+@startuml hello
+
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+
+title US29: Como gestor de logística pretendo listar as viagens por página
+
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:System" as S
+
+
+activate A
+activate S
+
+A -> S: Pede para listar as Viagens
+S -> A: Mostra as Viagens e informa o utilizador do sucesso da operaçao
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

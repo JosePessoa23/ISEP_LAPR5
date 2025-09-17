@@ -1,0 +1,101 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US19: Como gestor de frota pretendo Criar um Camião
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoUI" as CU
+participant "<b>:CamioesComponent" as CC
+participant "<b>:CamiaoService" as CS
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+participant "<b>:BackEndLogistica" as AL
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CU: Inserir dados para criar um camião
+activate CU
+CU -> CC: addCamiao(matricula,tara,capacidade,cargaBateria,autonomia,tempoCarregamentoRapido)
+activate CC
+CC -> CS : verificarAcesso(role)
+activate CS
+deactivate CS
+alt failure case
+CC --> CU
+CU -> A: Redireciona o utilizador para a página adequada e informa o do insucesso da operaçao
+else successful case
+
+CC -> CD** : create(matricula,tara,capacidade,cargaBateria,autonomia,tempoCarregamentoRapido)
+CC -> CS : addCamiao(camiaoDTO)
+activate CS
+CS -> AL : post(camiao)
+
+ref over AL
+ ./ML/UC07-nivel3.puml
+end ref
+activate AL
+AL --> CS
+deactivate AL
+CS --> CC
+deactivate CS
+CC --> CU
+deactivate CC
+deactivate CS
+CU -> A: Cria novo Camiao e informa o utilizador do sucesso da operaçao
+deactivate AL
+deactivate CU
+end
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

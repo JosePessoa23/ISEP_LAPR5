@@ -1,0 +1,115 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title UC09: Editar um Camião
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Frota" as A
+participant "<b>:CamiaoRoute" as CR
+participant "<b>:CamiaoController" as CC
+participant "<b>:CamiaoMapper" as CM
+participant "<b>:CamiaoService" as CS
+participant "<b>:CamiaoRepository" as CREP
+participant "<b>:CamiaoSchema" as CSC
+participant "<b>camiao\n<b>:Camiao" as C
+participant "<b>camiaoDTO\n<b>:CamiaoDTO" as CD
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> CR: HTTP request (put)
+activate CR
+
+CR -> CC: update(req, res, next)
+activate CC
+
+
+CC -> CS : updateCamiao(camiaoDTO)
+activate CS
+CS -> CREP : camiao = findByID(camiaoID)
+activate CREP
+CREP -> CSC : findOne(camiaoID)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> C : setArmazemP(armazemP)
+activate C
+CS -> C : setTara(tara)
+CS -> C : setCapacidadeCarga(capacidadeCarga)
+CS -> C : setCargaMax(cargaMax)
+CS -> C : setAutonomia(autonomia)
+CS -> C : setTempoCarregamento(tempoCarregamento)
+CS -> C : setDisponibilidade(disponibilidade)
+deactivate C
+CS -> CREP : save(camiao)
+activate CREP
+CREP -> CSC : save(camiao)
+activate CSC
+deactivate CSC
+deactivate CREP
+CS -> CM : camiaoDTO = toDTO(camiao)
+activate CM
+CM -> CD : create()
+activate CD
+deactivate CD
+deactivate CM
+CS -> CC : camiaoDTO
+deactivate RS
+CC -> CR: camiaoDTO
+deactivate CC
+
+CR -> A: Edita um Camião e informa o utilizador do sucesso da operaçao
+deactivate RR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml

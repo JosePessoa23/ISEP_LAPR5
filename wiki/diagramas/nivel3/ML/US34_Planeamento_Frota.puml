@@ -1,0 +1,109 @@
+@startuml hello
+
+'-Style----------------------------------------------------------------------------------------------------------------
+
+autonumber
+
+skinparam DefaultTextAlignment center
+
+skinparam BackgroundColor #fafdff
+
+skinparam sequence {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+skinparam note {
+    LifeLineBorderColor DodgerBlue
+    LifeLineBackgroundColor APPLICATION
+
+    ActorBackgroundColor APPLICATION
+    ActorBorderColor DodgerBlue
+
+    BackgroundColor #FFFFFF
+    ArrowColor DodgerBlue
+    BorderColor DodgerBlue
+
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontColor #FFFFFF
+    ParticipantBorderColor DodgerBlue
+
+    GroupBorderColor #082642
+    GroupBackgroundColor APPLICATION
+}
+
+'-Title----------------------------------------------------------------------------------------------------------------
+
+title US34: Obter o planeamento da frota com persistência
+
+'-Actors/Participants--------------------------------------------------------------------------------------------------
+
+actor "<b>Gestor de Logística" as A
+participant "<b>:PlaneamentoRoute" as PR
+participant "<b>:PlaneamentoController" as PC
+participant "<b>:PlaneamentoService" as PS
+participant "<b>planeamentoDTO\n<b>:PlaneamentoDTO" as PD
+participant "<b>viagem\n<b>:Viagem" as V
+participant "<b>:PlaneamentoRepository" as PREP
+participant "<b>:BackEndPlaneamento" as BP
+participant "<b>:PlaneamentoSchema" as PSC
+
+
+'-Associations---------------------------------------------------------------------------------------------------------
+
+activate A
+
+A -> PR: HTTP request (get)
+activate PR
+
+PR -> PC: getPlaneamentoFrota(req, res, next)
+activate PC
+
+PC -> PS : getPlaneamentoFrota(data, ng,dp,pc,pm,cp)
+activate PS
+PS -> PREP : getPlaneamentoFrota(data,  ng, dp, pc, pm, cp)
+activate PREP
+
+
+PREP -> BP : HTTP request (get)
+activate BP
+BP -> PREP : viagens
+deactivate BP
+PREP -> PS : viagens
+deactivate PREP
+loop para cada viagem em viagens
+PS -> V: create(viagemDTO)
+activate V
+deactivate V
+PS -> PREP : save(viagem)
+activate PREP
+PREP -> PSC : save(viagem)
+activate PSC
+|||
+deactivate PSC
+deactivate PREP
+end loop
+PS -> PC : viagensDTO
+deactivate PS
+PC -> PR: viagensDTO
+deactivate PC
+
+PR -> A: Retorna o planeamento
+deactivate PR
+'----------------------------------------------------------------------------------------------------------------------
+
+@enduml
